@@ -214,7 +214,7 @@ KardioFit gestiona una matriz comercial estructurada para prospección saliente 
 - Correo comercial: `contacto@kardiofit.cl`.
 - WhatsApp: `+56 9 8880 2424`; teléfono: `+56 9 2034 4764`.
 - Los enlaces de WhatsApp deben abrir una conversación con un texto prellenado que identifique a KardioFit y deje espacio para que la persona describa su solicitud. Texto base usado en el sitio: “Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:”.
-- El formulario de cotización usa actualmente Formspree `https://formspree.io/f/xoevgzgv`. El propietario desea que las solicitudes lleguen a `contacto@kardiofit.cl`, pero la recepción en esa bandeja y la configuración del destinatario en Formspree no se han verificado aquí. No afirmar que la entrega está confirmada hasta comprobarlo.
+- El formulario de cotización usa actualmente Formspree `https://formspree.io/f/xoevgzgv`. Las cotizaciones se reciben en `contacto@kardiofit.cl`, confirmado por el propietario.
 
 ### Asistente de ayuda y consentimiento de marketing
 - La ayuda flotante del sitio orienta sobre la información publicada y ofrece derivar a WhatsApp, correo o teléfono. Su presentación preferida es clara, cordial y con la marca KardioFit.
