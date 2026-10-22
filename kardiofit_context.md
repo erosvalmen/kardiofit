@@ -187,7 +187,7 @@ KardioFit ha definido la arquitectura funcional y reglas de negocio para digital
   - **Correo Dirección Kinesiológica:** `eros@kardiofit.cl`
   - **Correo Confirmación y Facturación:** `pagos@kardiofit.cl`
   - **WhatsApp y Teléfonos:** `+56 9 8880 2424` / `+56 9 2034 4764`
-  - **Agenda de Reuniones Virtuales (30 min Google Meet):** `https://calendar.app.google/ThgCszkxi51r9xZA8` ([Campaña Octubre KardioFit](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1878867304190115776))
+  - **Agenda de Reuniones Virtuales (30 min Google Meet):** `https://calendar.app.google/v6xf4hpTXqXLiAk6A` (en el sitio de trabajo también se integra Google Calendar Appointment Scheduling mediante iframe; revisar el código vigente antes de modificarlo) ([Campaña Octubre KardioFit](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1878867304190115776))
   - **Instagram:** `@kardiofitchile`
   - **Infraestructura de Email Marketing:** Subdominio `r.send.kardiofit.cl` (plataforma Mailin / Brevo, [Test de campaña Octubre](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1879078295319781935)).
   - **Horario de Atención:** Lunes a Viernes de 08:00 a 18:00 hrs.
@@ -199,3 +199,47 @@ KardioFit gestiona una matriz comercial estructurada para prospección saliente 
    - **Criterio de segmentación:** Nómina oficial SII 2024 (empresas con `>= 200` trabajadores dependientes y tramos de ventas `10–13`), apuntando a decisores de **RR.HH., Gestión de Personas, Calidad de Vida y Comités de Bienestar**, complementada con la [Base de Datos Segmentada - Operativos Kardiofit](https://docs.google.com/spreadsheets/d/1jdRCCEfBBd2GyAnuQBRP0MG4uDZK3EUZ6UAPu1N2WzE/edit?usp=drivesdk&ouid=114500116355238873683).
 2. **Monitoreo de Señales de Demanda y Compras Públicas:**
    - Seguimiento activo de 17 señales de demanda documentadas en empresas con operativos preventivos recientes (como Grupo Patio en centros comerciales de RM y Temuco, Sigdo Koppers y Laboratorios Prater) y monitoreo de licitaciones / Compras Ágiles de bienestar, ergonomía y masajes en **Mercado Público**.
+
+## 7. Decisiones recientes del propietario y contexto vigente del sitio
+
+> Esta sección documenta decisiones explícitas del propietario compartidas al trabajar en el sitio KardioFit. Si una afirmación antigua de este archivo entra en conflicto con esta sección o con una instrucción posterior del propietario, usar la indicación más reciente. Antes de comunicar precios, protocolos, cobertura o estado técnico como actuales, verificar la fuente vigente.
+
+### Oferta y posicionamiento que deben reflejarse en el sitio
+- KardioFit ofrece operativos de salud preventiva en terreno para organizaciones. El equipo coordina la jornada en las instalaciones del cliente y adapta estaciones, alcance y fecha a las necesidades del equipo.
+- El sitio presenta ocho estaciones: evaluación nutricional, bioimpedancia, evaluación cardiovascular, electrocardiograma, presoterapia, masajes clínicos, evaluación kinesiológica y Test de PSA. No afirmar que todas las estaciones están disponibles para toda organización ni agregar prestaciones que el propietario no haya confirmado.
+- La propuesta comercial del sitio destaca que no hay mínimo de participantes y que los servicios se adaptan a cada organización. La cobertura habitual que se comunica es Región Metropolitana, La Araucanía y Los Ríos; Valparaíso se coordina según disponibilidad.
+- El flujo web invita a cotizar o reservar una reunión virtual de 30 minutos por Google Meet. La agenda externa indicada por el propietario es `https://calendar.app.google/v6xf4hpTXqXLiAk6A`. El sitio de trabajo también contiene una integración iframe de Google Calendar; confirmar el código vigente antes de cambiarla.
+
+### Canales y formularios vigentes según las instrucciones más recientes
+- Correo comercial: `contacto@kardiofit.cl`.
+- WhatsApp: `+56 9 8880 2424`; teléfono: `+56 9 2034 4764`.
+- Los enlaces de WhatsApp deben abrir una conversación con un texto prellenado que identifique a KardioFit y deje espacio para que la persona describa su solicitud. Texto base usado en el sitio: “Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:”.
+- El formulario de cotización usa actualmente Formspree `https://formspree.io/f/xoevgzgv`. El propietario desea que las solicitudes lleguen a `contacto@kardiofit.cl`, pero la recepción en esa bandeja y la configuración del destinatario en Formspree no se han verificado aquí. No afirmar que la entrega está confirmada hasta comprobarlo.
+
+### Asistente de ayuda y consentimiento de marketing
+- La ayuda flotante del sitio orienta sobre la información publicada y ofrece derivar a WhatsApp, correo o teléfono. Su presentación preferida es clara, cordial y con la marca KardioFit.
+- El asistente implementado en el sitio de trabajo se basa en preguntas y respuestas predefinidas; no tiene un modelo generativo conectado. Tratar esta frase como nota interna de implementación, no como texto para visitantes. No afirmar capacidades que el producto no tenga ni inventar respuestas; derivar al equipo cuando falte información.
+- La idea inicial contempló sugerir dejar datos para email marketing, pero el propietario pidió después eliminar la sección de novedades por correo dentro del asistente. No volver a agregar esa captura de datos al asistente sin una nueva instrucción. Mantener cualquier otro formulario y consentimiento de marketing sujeto a su propósito y configuración propios.
+- Texto que el propietario prefirió como instrucción de inicio del asistente: “Selecciona una pregunta para comenzar”. Evitar explicar al visitante que la herramienta “no es una IA”.
+
+### Preferencias visuales y decisiones de interfaz
+- La marca debe sentirse corporativa, confiable, seria y amable, con impacto visual. Mantener la identidad naranja y azul marino; cuidar que la expresividad visual no reduzca legibilidad ni confianza.
+- El propietario pidió títulos y subtítulos centrados en las secciones para una presentación más profesional, un encabezado más compacto y los enlaces de navegación rápida centrados, conservando el botón principal de contacto. El CTA de hablar con un experto debe incluir un icono de auricular.
+- El ticker superior debe verse mejor y no debe incluir botón de pausa.
+- En la sección de estaciones, reducir el espacio ocupado por los botones y la imagen para que se alcance a leer la explicación sin tener que desplazarse. En escritorio evitar bordes grises que resten prolijidad; en móvil el texto completo debe aparecer debajo de la imagen, sin recortes ni desbordes.
+- La sección de cobertura usa una imagen representativa diferente por región. Valparaíso debe conservar el encuadre original con `object-fit: cover`: el propietario probó el encuadre sin zoom y pidió restaurar el anterior.
+- La sección de compromiso/testimonios debe ser compacta, con la imagen centrada en las personas y textos más breves. El bloque de contacto directo debe mantenerse separado del formulario y presentarse horizontalmente en escritorio.
+- La sección de contacto/cotización debe tener presencia naranja y atractiva. La sección de confidencialidad debe comunicar autoridad y reserva, con un tratamiento visual de fondo acorde.
+- El logotipo del encabezado debe conservar fondo transparente.
+
+### Regla de precisión para asistentes
+- Este documento reúne información corporativa, comercial, clínica, ideas de producto y referencias históricas. No asumir que cada elemento es vigente o está aprobado para publicar.
+- Las tarifas, políticas, promesas de resultados, claims como reducción de ausentismo/cortisol, contraindicaciones, instrucciones para participantes y afirmaciones de cumplimiento legal deben validarse con el responsable clínico/comercial y, cuando corresponda, fuentes oficiales actuales. No inventar precios, disponibilidad ni compromisos.
+- Las especificaciones de la “Herramienta de Evaluación Integral KardioFit” y sus módulos de evaluación son un proyecto distinto del catálogo de operativos del sitio. No presentarlo como una aplicación ya desplegada ni como una prestación incluida, salvo confirmación del propietario.
+- Proteger los datos de salud: no diagnosticar ni sustituir una consulta profesional. En contenido para clientes, usar solo la información necesaria y no divulgar los datos personales internos incluidos en este documento.
+
+## 8. Historial de correcciones relevantes para futuras ediciones
+- En octubre de 2026, el propietario cambió el endpoint del formulario de cotización a `xoevgzgv`.
+- En octubre de 2026, el propietario actualizó la agenda de Google Meet a `https://calendar.app.google/v6xf4hpTXqXLiAk6A` e integró el iframe de Google Calendar Appointment Scheduling en la página de reunión.
+- En octubre de 2026, el propietario pidió revertir el zoom-out aplicado a la imagen de Valparaíso; conservar el encuadre anterior.
+- En el asistente de ayuda, el propietario pidió retirar la sección de novedades por correo y usar “Selecciona una pregunta para comenzar”.
