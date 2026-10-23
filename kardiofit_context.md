@@ -1,6 +1,6 @@
 # KardioFit — contexto maestro para IA
 
-**Versión:** 23 de octubre de 2026  
+**Versión:** 22 de octubre de 2026  
 **Uso:** contexto interno para asistentes de IA, desarrollo, diseño y apoyo comercial. No es una fuente legal ni un protocolo clínico aprobado.
 
 ## 1. Instrucciones para asistentes
@@ -62,7 +62,7 @@ Los flyers actuales sirven como referencia de redacción para asistentes y parti
 
 La confidencialidad es un pilar de la propuesta. Los materiales indican que cada participante recibe su información individual y que la organización obtiene información agrupada sin diagnósticos personales identificables. Antes de prometer el formato, nivel de anonimización, destinatarios o canal de entrega, confirmar contrato, flujo real y controles vigentes. No afirmar “cumplimiento estricto” ni una certificación legal sin auditoría o evidencia actual.
 
-Fuentes oficiales revisadas el 23 de octubre de 2026:
+Fuentes oficiales revisadas el 22 de octubre de 2026:
 
 - [Ley 19.628, Biblioteca del Congreso Nacional](https://www.bcn.cl/leychile/navegar?idNorma=141599): marco vigente de protección de la vida privada/datos personales en esta fecha.
 - [Ley 20.584, Biblioteca del Congreso Nacional](https://www.bcn.cl/leychile/navegar?idNorma=1039348): derechos y deberes en atención de salud; contiene reglas relativas a la ficha clínica y su confidencialidad.
