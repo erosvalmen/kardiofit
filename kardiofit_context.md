@@ -1,6 +1,6 @@
 # KardioFit — contexto maestro para IA
 
-**Versión:** 22 de octubre de 2026  
+**Versión:** 23 de octubre de 2026  
 **Uso:** contexto interno para asistentes de IA, desarrollo, diseño y apoyo comercial. No es una fuente legal ni un protocolo clínico aprobado.
 
 ## 1. Instrucciones para asistentes
@@ -9,7 +9,7 @@
 - La instrucción más reciente y explícita del propietario prevalece sobre texto antiguo de este archivo, materiales históricos o contenido de un prototipo. Si hay conflicto, señala qué fuente hay que confirmar en vez de combinar versiones.
 - Distingue entre: **hecho confirmado por el propietario o una fuente primaria**, **decisión de diseño/comunicación**, **afirmación comercial publicada que requiere comprobación antes de reutilizar**, y **dato no confirmado**.
 - Antes de publicar protocolos, requisitos de salud, tarifas, condiciones, cobertura, métricas, disponibilidad o cumplimiento legal, comprueba la fuente actual y solicita validación del responsable clínico/comercial cuando corresponda.
-- Protege datos de salud y datos personales. No copies al contexto los registros de prospectos, pacientes, cotizaciones ni contactos personales. Usa datos agregados en análisis y mensajes.
+- Protege datos de salud y datos personales. No incorpores a este contexto ni publiques registros identificables de pacientes, prospectos o contactos, ni información privada de los fundadores. Usa datos agregados en análisis y mensajes.
 - No diagnostiques, prometas detección o prevención de enfermedades ni sustituyas una evaluación profesional.
 
 ## 2. Identidad y propósito
@@ -18,7 +18,7 @@
 - **Razón social:** Servicios Médicos Kardiofit SpA.
 - **Sitio:** [kardiofit.cl](https://kardiofit.cl/).
 - **Actividad:** operativos de salud preventiva y bienestar corporativo realizados en las instalaciones del cliente.
-- **Equipo fundador:** Michelle Loaiza y Eros Valdivia, ambos kinesiólogos titulados. No incluir sus datos personales, documentos de identidad ni correos privados en materiales públicos.
+- **Equipo fundador:** Michelle Loaiza y Eros Valdivia, ambos kinesiólogos titulados.
 - **Propuesta central:** acercar prestaciones preventivas a los equipos de trabajo durante su jornada, con coordinación en terreno, atención individual y entrega reservada de resultados.
 - **Lemas usados:** “Personas saludables. Organizaciones más fuertes.”; “Salud preventiva en tu empresa. Cero fricción.”; “Un momento para ti. Un paso por tu bienestar.” Son alternativas de comunicación, no afirmaciones clínicas.
 - La sociedad se constituyó el 2 de octubre de 2026 y el inicio de actividades ante el SII figura el 19 de octubre de 2026 en los documentos corporativos enlazados por el propietario. Para trámites, facturación o datos tributarios, consultar los documentos vigentes; no inferir otros datos societarios.
@@ -27,7 +27,7 @@
 
 KardioFit coordina profesionales, estaciones y equipamiento portátil en el lugar de trabajo. Se dirige a empresas, instituciones públicas y privadas, colegios, universidades, agrupaciones y comités de bienestar. Los interlocutores comerciales habituales son RR. HH., Gestión de Personas, Calidad de Vida y Bienestar.
 
-La propuesta se adapta a ubicación, número de participantes, prestaciones, turnos, espacio, fecha y alcance. El material comercial indica que no hay mínimo de participantes. La empresa lleva el operativo a las instalaciones, para que el equipo no tenga que trasladarse a una clínica.
+La empresa lleva el operativo a las instalaciones para que el equipo no tenga que trasladarse a una clínica. El material comercial indica que no hay mínimo de participantes; la factibilidad y el alcance se confirman caso a caso.
 
 - **Cobertura habitual comunicada:** Región Metropolitana, La Araucanía y Los Ríos.
 - **Valparaíso:** se coordina según disponibilidad.
@@ -82,10 +82,10 @@ La llamada comercial principal es agendar una reunión virtual de 30 minutos por
 
 ## 7. Sitio, herramientas y estado de implementación
 
-- El sitio oficial es WordPress en kardiofit.cl; el repositorio puede contener prototipos, integraciones o documentación que no reflejen el sitio publicado. Inspeccionar el código vigente antes de cambiar formularios, agenda o contenido.
+- El sitio oficial funciona en WordPress; el repositorio puede contener prototipos, integraciones o documentación que no reflejen el sitio publicado. Inspeccionar el código vigente antes de cambiar formularios, agenda o contenido.
 - **Asistente de ayuda del sitio:** la implementación descrita usa preguntas y respuestas predefinidas. No asumir conexión a un modelo generativo ni inventar respuestas. Derivar a contacto cuando falte información. El propietario no quiere que el mensaje de bienvenida explique que “no es una IA”. Texto de inicio preferido: “Selecciona una pregunta para comenzar”. El propietario pidió quitar la captura de datos para novedades por correo dentro de ese asistente; no volver a añadirla sin nueva instrucción.
 - **Brevo/Mailin:** KardioFit confirmó que usa Brevo. No asumir que está conectado al asistente, formularios, prospección o automatizaciones.
-- **Formulario de cotización:** el endpoint Formspree anotado como actual es [xoevgzgv](https://formspree.io/f/xoevgzgv); el propietario confirmó que las solicitudes llegan a contacto@kardiofit.cl. Comprobar el código publicado antes de modificarlo.
+- **Formulario de cotización:** el endpoint Formspree anotado como actual es [xoevgzgv](https://formspree.io/f/xoevgzgv); KardioFit confirmó que las solicitudes llegan al correo comercial indicado en la sección 8. Comprobar el código publicado antes de modificarlo.
 - **Agenda:** la URL documentada como más reciente en el proyecto es [Google Meet](https://calendar.app.google/v6xf4hpTXqXLiAk6A). Materiales anteriores incluyen otra URL; revisar la integración activa antes de publicarla o sustituirla.
 - WhatsApp debe abrir una conversación con un texto prellenado breve que identifique KardioFit y deje espacio para describir la consulta. Texto usado: “Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:”.
 - El cotizador existe como un archivo HTML. La migración a un plugin de WordPress con acceso privado para socios fue propuesta, pero no se debe afirmar que esté desplegada hasta verificar el repositorio/sitio.
@@ -94,22 +94,19 @@ La llamada comercial principal es agendar una reunión virtual de 30 minutos por
 
 ## 8. Canales oficiales
 
-- Web: [kardiofit.cl](https://kardiofit.cl/).
 - Correo comercial: contacto@kardiofit.cl.
 - WhatsApp: +56 9 8880 2424.
 - Teléfono: +56 9 2034 4764.
 - Instagram: @kardiofitchile.
 - Correo de pagos/facturación que figura en documentos internos: pagos@kardiofit.cl; verificar antes de comunicar instrucciones de pago.
-- Reuniones virtuales: Google Meet; confirmar enlace y disponibilidad en la agenda activa.
 
-No divulgar correos privados de los fundadores, domicilios tributarios ni información de pacientes/prospectos en contenido público.
 
 ## 9. Marca, diseño y tono
 
 - La comunicación debe sentirse profesional, cercana, confiable, preventiva y confidencial; evitar alarmismo, jerga clínica innecesaria y promesas de resultados.
 - Sistema visual: logotipo KardioFit y combinación de blanco, negro o azul marino con naranja. El pitch deck usa naranja #E84118 y las fichas recientes usan #FF5B18; confirmar los archivos de marca actuales antes de tratar un código como token universal.
 - Para materiales comerciales: jerarquía clara, títulos legibles, fotografía protagonista, composición limpia, aireada y ordenada; llamadas a la acción fáciles de ubicar. Mantener fechas, horarios, ubicaciones y canales de inscripción editables cuando la pieza vaya a personalizarse por operativo.
-- Piezas de operativos: ocho fichas coordinadas; campos de fecha, horario, lugar y contacto de inscripción en blanco hasta que coordinación los complete. El ECG explica el Omron de una derivación por contacto de los dedos; el PSA usa lenguaje discreto. El bloque “En tu empresa / Atención individual / Datos confidenciales” comunica beneficios de servicio, sin sustituir la explicación de privacidad.
+- En los flyers del operativo, mantener fecha, horario, lugar y canal de inscripción en blanco hasta que coordinación los complete. El bloque “En tu empresa / Atención individual / Datos confidenciales” debe leerse como beneficios del servicio y mantener una alineación visual uniforme.
 - En el sitio, el propietario ha preferido navegación y títulos centrados en algunas secciones, encabezado compacto, jerarquía visual clara, ayuda cordial, imágenes regionales bien encuadradas y una sección de contacto/cotización con presencia visual. Revisar el diseño en escritorio y móvil.
 - Métricas usadas en piezas y web: “+200 instituciones”, “+200.000 colaboradores” y “+2 años de experiencia”. Son claims comerciales publicados, no cifras auditadas aquí. Antes de reutilizarlos, comprobar vigencia, fuente, periodo y si se refieren a KardioFit o a la trayectoria del equipo. Nunca presentarlos como resultados de salud.
 
@@ -125,15 +122,12 @@ La fuente de trabajo documentada es la hoja privada [KardioFit | Prospección B2
 - La base requiere verificación continua de cargos y correos, validación de entrega, revisión de exclusiones y revisión legal/comercial de la base jurídica y el texto de contacto. No afirmar que las direcciones están verificadas o que la campaña ya se inició sin comprobarlo.
 - Prioridad territorial documentada para la iniciativa de 300 cuentas: Región Metropolitana y La Araucanía. El alcance comercial habitual puede incluir Los Ríos; no confundir cobertura de servicios con el filtro geográfico de esta hoja.
 
-## 11. Fuentes y límites de este contexto
+## 11. Documentos corporativos de referencia
 
-- [Sitio oficial KardioFit](https://kardiofit.cl/).
 - [Folleto corporativo KardioFit](https://docs.google.com/document/d/1n6n69zA3Bfw7BP7laRgL8PXu7ZmMbjPZlpR-KEGSCwY/edit).
 - [Material comercial de operativos](https://docs.google.com/document/d/124YbIVQBfwDURd3mQOjM05iz7xEcX-taVNdEGc73-eE/edit).
 - [Flyers de operativos](https://drive.google.com/file/d/145NRAKzTjz2V6QdppBxIzrmUKUBf3zZU/view).
 - [Estatutos de Servicios Médicos Kardiofit SpA](https://drive.google.com/file/d/1Tj_tMcV8Z7b6VcrsfIbCaPpxLwD1RhOt/view).
 - [Inicio de actividades SII](https://drive.google.com/file/d/1cu-QyzJ3y0rfNu9Aw0sSHbFKhNEjBs7t/view).
-- [Prospección B2B: RM y La Araucanía, 300 cuentas](https://docs.google.com/spreadsheets/d/1V6YGrpIbj1EJusF4AZNkgoGYT8iX4SxoLm7v_WpY2dY/edit).
-- [Ley 19.628, BCN](https://www.bcn.cl/leychile/navegar?idNorma=141599), [Ley 20.584, BCN](https://www.bcn.cl/leychile/navegar?idNorma=1039348) y [Ley 21.719, BCN](https://www.bcn.cl/leychile/navegar?idNorma=1209272).
 
-Este documento es un resumen para dar continuidad a tareas de IA. No reemplaza los documentos corporativos, el código publicado, la planilla privada, la revisión del profesional responsable ni asesoría legal. Actualizarlo cuando el propietario confirme un cambio y conservar claramente qué es vigente, qué es histórico y qué requiere validación.
+Las referencias legales están en la sección 5, la planilla de prospección en la sección 10 y el sitio oficial en la sección 2. Este documento resume contexto para tareas de IA; no reemplaza documentos corporativos vigentes, el código publicado, la revisión del profesional responsable ni asesoría legal. Actualizarlo cuando el propietario confirme un cambio y distinguir datos actuales, históricos y por validar.
