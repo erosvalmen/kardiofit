@@ -1,266 +1,139 @@
-# KardioFit — Contexto Maestro del Proyecto (AI-Ready Documentation)
+# KardioFit — contexto maestro para IA
 
-> **Propósito de este documento:** Proveer contexto estructurado, completo y libre de ambigüedades sobre **KardioFit (Servicios Médicos Kardiofit SpA)** para que cualquier agente de Inteligencia Artificial, LLM o desarrollador comprenda su identidad corporativa, modelo de negocio B2B, catálogo clínico, flujo operativo, arquitectura de software de evaluación y estrategia comercial.
+**Versión:** 23 de octubre de 2026  
+**Uso:** contexto interno para asistentes de IA, desarrollo, diseño y apoyo comercial. No es una fuente legal ni un protocolo clínico aprobado.
 
-## 1. La Identidad Corporativa y Societaria Consolida Operativos Preventivos y Salud Ocupacional
+## 1. Instrucciones para asistentes
 
-- **Nombre Comercial / Marca:** [KardioFit](https://kardiofit.cl/) (`KardioFit SpA`)
-- **Razón Social:** [Servicios Médicos Kardiofit SpA](https://drive.google.com/file/d/1Tj_tMcV8Z7b6VcrsfIbCaPpxLwD1RhOt/view?usp=drivesdk)
-- **RUT Sociedad:** `78.526.554-8` ([Certificado Inicio de Actividades SII](https://drive.google.com/file/d/1cu-QyzJ3y0rfNu9Aw0sSHbFKhNEjBs7t/view?usp=drivesdk))
-- **Tipo Societario:** Sociedad por Acciones (SpA)
-- **Fecha de Constitución:** 2 de octubre de 2026 ([Estatuto Actualizado](https://drive.google.com/file/d/1Tj_tMcV8Z7b6VcrsfIbCaPpxLwD1RhOt/view?usp=drivesdk)) | **Inicio de Actividades SII:** 19 de octubre de 2026 (Primera Categoría, afecto a IVA, segmento Microempresa, Folio N° 17437731)
-- **Giro y Actividad Económica (Código SII `869091`):** Otros servicios de atención de la salud humana prestados por empresas; realización de operativos preventivos y de bienestar para empresas ([Certificado SII](https://drive.google.com/file/d/1cu-QyzJ3y0rfNu9Aw0sSHbFKhNEjBs7t/view?usp=drivesdk)).
-- **Objeto Social Amplio ([Estatuto Empresa](https://drive.google.com/file/d/1Tj_tMcV8Z7b6VcrsfIbCaPpxLwD1RhOt/view?usp=drivesdk)):**
-  1. Organización, gestión, coordinación, producción y ejecución de operativos médicos, jornadas de salud preventiva y programas de bienestar corporativo en terreno (empresas, instituciones públicas/privadas, establecimientos educacionales y comunidades), atención ambulatoria y emisión de informes individuales y consolidados digitales confidenciales.
-  2. Provisión, intermediación y coordinación de profesionales y técnicos de la salud humana y bienestar.
-  3. Importación, comercialización, distribución y arrendamiento de insumos médicos, equipos y dispositivos médicos o de cuidado personal (físico, e-commerce y licitaciones).
-  4. Consultoría, capacitación y desarrollo de soluciones tecnológicas o plataformas digitales asociadas a salud, medicina preventiva y bienestar ocupacional.
-- **Lema / Propuesta de Valor:** *"Personas saludables. Organizaciones más fuertes."* / *"Salud preventiva en tu empresa. Cero fricción."* / *"Salud hoy para un mejor mañana."* ([Folleto Corporativo](https://docs.google.com/document/d/1n6n69zA3Bfw7BP7laRgL8PXu7ZmMbjPZlpR-KEGSCwY/edit?usp=drivesdk&ouid=114500116355238873683))
-- **Equipo Fundador y Dirección (50% / 50% participación accionaria, capital social $3.000.000 CLP dividido en 1.000 acciones ordinarias):**
-  - **Michelle Dominic Loaiza Barrios:** Cofundadora, Gerente General, Representante Legal ante el SII y Kinesióloga (`mloaizab99@gmail.com` / `klga.michelleloaiza@gmail.com`).
-  - **Eros Angelino Dante Valdivia Meneses:** Cofundador, Representante Legal ante el SII, Kinesiólogo Deportivo (Universidad Bernardo O'Higgins, 2017–2022) y Especialista en Entrenamiento Funcional, Rehabilitación y Desarrollo Tecnológico con IA ([CV Eros Valdivia](https://docs.google.com/document/d/15cOIT7n7-0NT-qDAUd4LmwL2vKdFSwLZ-1EIoIXurrs/edit?usp=drivesdk&ouid=114500116355238873683), `eros@kardiofit.cl` / `erosv.kine@gmail.com`).
-- **Ubicación y Cobertura Geográfica:**
-  - **Domicilio Tributario y Comercial (Oficina Virtual):** Calle Eulogia Sánchez #065, Rol 854-4, Providencia, Santiago, Región Metropolitana ([Contrato Sub-arrendamiento Animal Coworking Group SpA](https://drive.google.com/file/d/1NceSBECRcQYNk8mAtPcQ8Amo7pA8Xa4J/view?usp=drivesdk)).
-  - **Base Operativa Sur:** Villarrica, Región de La Araucanía, Chile.
-  - **Cobertura Habitual en Terreno:** Región Metropolitana (Santiago), Región de La Araucanía (Villarrica, Pucón, Temuco) y Región de Los Ríos. Disponibilidad coordinada para Región de Valparaíso y operativos en todo Chile ([Sitio Web Oficial KardioFit](https://kardiofit.cl/)).
+- KardioFit es una empresa chilena que presta servicios de salud preventiva y bienestar en terreno para organizaciones. Usa este documento como contexto, no como autorización para inventar precios, disponibilidad, resultados, integraciones o promesas.
+- La instrucción más reciente y explícita del propietario prevalece sobre texto antiguo de este archivo, materiales históricos o contenido de un prototipo. Si hay conflicto, señala qué fuente hay que confirmar en vez de combinar versiones.
+- Distingue entre: **hecho confirmado por el propietario o una fuente primaria**, **decisión de diseño/comunicación**, **afirmación comercial publicada que requiere comprobación antes de reutilizar**, y **dato no confirmado**.
+- Antes de publicar protocolos, requisitos de salud, tarifas, condiciones, cobertura, métricas, disponibilidad o cumplimiento legal, comprueba la fuente actual y solicita validación del responsable clínico/comercial cuando corresponda.
+- Protege datos de salud y datos personales. No copies al contexto los registros de prospectos, pacientes, cotizaciones ni contactos personales. Usa datos agregados en análisis y mensajes.
+- No diagnostiques, prometas detección o prevención de enfermedades ni sustituyas una evaluación profesional.
 
-## 2. El Modelo B2B Lleva Operativos In-Company de Cero Fricción con Triple Reportabilidad Confidencial
+## 2. Identidad y propósito
 
-[KardioFit](https://kardiofit.cl/) traslada estaciones clínicas móviles, equipamiento portátil de diagnóstico y profesionales de la salud directamente a las instalaciones del cliente (**Operativos In-Company**), atendiendo a cinco segmentos organizacionales:
-1. **Empresas:** Bienestar para colaboradores dentro de su jornada e instalaciones.
-2. **Instituciones públicas y privadas:** Jornadas adaptadas a sedes y turnos.
-3. **Colegios:** Prevención y bienestar para equipos y comunidades educativas.
-4. **Universidades:** Operativos coordinados para campus universitarios.
-5. **Agrupaciones y Comités de Bienestar:** Atención flexible sin mínimo de participantes.
+- **Marca:** KardioFit.
+- **Razón social:** Servicios Médicos Kardiofit SpA.
+- **Sitio:** [kardiofit.cl](https://kardiofit.cl/).
+- **Actividad:** operativos de salud preventiva y bienestar corporativo realizados en las instalaciones del cliente.
+- **Equipo fundador:** Michelle Loaiza y Eros Valdivia, ambos kinesiólogos titulados. No incluir sus datos personales, documentos de identidad ni correos privados en materiales públicos.
+- **Propuesta central:** acercar prestaciones preventivas a los equipos de trabajo durante su jornada, con coordinación en terreno, atención individual y entrega reservada de resultados.
+- **Lemas usados:** “Personas saludables. Organizaciones más fuertes.”; “Salud preventiva en tu empresa. Cero fricción.”; “Un momento para ti. Un paso por tu bienestar.” Son alternativas de comunicación, no afirmaciones clínicas.
+- La sociedad se constituyó el 2 de octubre de 2026 y el inicio de actividades ante el SII figura el 19 de octubre de 2026 en los documentos corporativos enlazados por el propietario. Para trámites, facturación o datos tributarios, consultar los documentos vigentes; no inferir otros datos societarios.
 
-### Pilares de Valor para Recursos Humanos ([Folleto Kardiofit](https://docs.google.com/document/d/124YbIVQBfwDURd3mQOjM05iz7xEcX-taVNdEGc73-eE/edit?usp=drivesdk&ouid=114500116355238873683))
-- **Cero Fricción Operativa:** Turnos estructurados y puntuales de **10 a 12 minutos por colaborador** en las propias oficinas o plantas de la empresa, evitando horas perdidas en traslados a clínicas externas y sin interrumpir la productividad.
-- **Sin Mínimo de Participantes:** Adaptación de estaciones y profesionales a organizaciones de cualquier tamaño.
-- **Reducción del Ausentismo Laboral:** Pesquisa precoz de factores de riesgo cardiovascular, metabólico y dolor musculoesquelético para prevenir licencias médicas prolongadas.
-- **Experiencia Sensorial Integrada (Atmósfera Anti-Estrés):** Todos los operativos incluyen **aromaterapia clínica y musicoterapia ambiental** para reducir el cortisol y facilitar la desconexión, junto con insumos premium y protocolos estrictos de desinfección entre cada colaborador.
+## 3. Modelo, clientes y cobertura
 
-### Privacidad, Confidencialidad y Marco Legal (Política Cero Papel)
-[KardioFit](https://kardiofit.cl/) opera bajo estricto cumplimiento de la legislación chilena de protección de datos y derechos de los pacientes:
-- **Ley N° 19.628:** Protección de la vida privada y tratamiento de datos sensibles de salud.
-- **Ley N° 20.584:** Derechos y deberes de las personas en atención de salud y reserva de la ficha clínica.
-- **Reforma Ley N° 21.719:** Estándares actualizados de protección de datos personales (vigente desde el 1 de diciembre de 2026).
+KardioFit coordina profesionales, estaciones y equipamiento portátil en el lugar de trabajo. Se dirige a empresas, instituciones públicas y privadas, colegios, universidades, agrupaciones y comités de bienestar. Los interlocutores comerciales habituales son RR. HH., Gestión de Personas, Calidad de Vida y Bienestar.
 
-**Estructura de Entregables en 3 Niveles ("El resultado es del trabajador. Siempre."):**
-1. **Informe Individual al Trabajador:** Resultados clínicos detallados, orientación y derivaciones enviados por vía electrónica y confidencial exclusivamente al correo personal del colaborador.
-2. **Informe Anónimo por Área:** Prevalencias y semáforos de riesgo agrupados por sedes, plantas o gerencias, 100% anonimizados.
-3. **Informe Gerencial Consolidado para RR.HH.:** Estadística agregada, ranking corporativo, benchmarking de salud poblacional y priorización presupuestaria sin exponer diagnósticos individuales identificables ([Folleto Corporativo](https://docs.google.com/document/d/1n6n69zA3Bfw7BP7laRgL8PXu7ZmMbjPZlpR-KEGSCwY/edit?usp=drivesdk&ouid=114500116355238873683)).
+La propuesta se adapta a ubicación, número de participantes, prestaciones, turnos, espacio, fecha y alcance. El material comercial indica que no hay mínimo de participantes. La empresa lleva el operativo a las instalaciones, para que el equipo no tenga que trasladarse a una clínica.
 
-## 3. Las 8 Estaciones Clínicas Cubren Prevención Cardiovascular, Metabólica, Nutricional y Musculoesquelética
+- **Cobertura habitual comunicada:** Región Metropolitana, La Araucanía y Los Ríos.
+- **Valparaíso:** se coordina según disponibilidad.
+- Para otras regiones, confirmar logística y disponibilidad antes de ofrecer cobertura. No prometer cobertura nacional automática.
+- No fijar un tiempo universal por participante. La duración depende de la estación, el equipo, el flujo y la cotización acordada.
 
-Las organizaciones pueden contratar estaciones individuales o combinarlas en una jornada a medida ([Flyers Operativos KardioFit](https://drive.google.com/file/d/145NRAKzTjz2V6QdppBxIzrmUKUBf3zZU/view?usp=drivesdk)):
+## 4. Catálogo y límites de comunicación clínica
 
-| # | Estación Clínica | Duración / Persona | Descripción y Parámetros Evaluados | Requerimiento de Espacio | Preparación e Instrucciones Críticas para el Participante |
-|---|---|---|---|---|---|
-| **01** | **Evaluación Nutricional** | 10–12 min | Registro antropométrico (peso, talla, IMC), entrevista con nutricionista sobre rutina alimentaria y orientación individual para estabilizar energía y glucosa. | Sala de reuniones / mesa de apoyo y sillas | Informar alergias alimentarias o resistencia a la insulina; sinceridad sobre hidratación y colaciones; puntualidad. |
-| **02** | **Bioimpedancia Clínica** | 10 min | Análisis de composición corporal con equipo portátil: porcentaje de masa muscular, masa grasa, grasa visceral e hidratación corporal. | Espacio privado reducido / sala habilitada | **Pies descalzos** (retirar zapatos y calcetines para contacto directo); idealmente **2 horas de ayuno**; retirar metales (cinturones, llaves). **Contraindicado en embarazadas y portadores de marcapasos.** |
-| **03** | **Evaluación Cardiovascular** | 10–12 min | Toma clínica de presión arterial, pesquisa de hipertensión o alteraciones asintomáticas y estratificación de riesgo cardiovascular. | Oficina o box privado / sala de enfermería | Llegar **5 minutos antes** para reposo sentado; usar mangas holgadas fáciles de remangar sobre el codo; **evitar café, tabaco o bebidas energizantes 1 hora antes**. |
-| **04** | **Electrocardiograma (ECG / Cardiocheck)** | 12 min | Registro digital en reposo de 12 derivaciones (100% indoloro y no invasivo) para mapear actividad eléctrica cardíaca y detectar arritmias ocultas, con informe clínico. | Box privado con camilla / sala de enfermería | Vestimenta con acceso a pecho, muñecas y tobillos (camisa con botones o polera holgada); **NO aplicar cremas ni aceites en el pecho** (impiden contacto de electrodos); mantenerse relajado. |
-| **05** | **Presoterapia Secuencial** | 12 min | Drenaje linfático mecánico mediante botas de compresión neumática supervisado por kinesiólogo; estimula retorno venoso, elimina ácido láctico y alivia piernas cansadas. | Zona tranquila con enchufe eléctrico (220V) | Asistir con **ropa holgada** (buzo, calzas flexibles o ropa deportiva); **prohibido usar faldas o jeans ajustados**; retirar zapatos e ingresar con calcetines limpios. |
-| **06** | **Masajes Clínicos (Alivio Miofascial)** | 10–12 min | Terapia manual focalizada en silla ergonómica (cuello, trapecios, hombros, zona lumbar) realizada por profesionales de salud para reducir cortisol y tensión, más pautas de autocuidado. | Espacio silencioso / sala ergonómica | Ropa cómoda que permita trabajar hombros; cabello largo tomado; retirar bufandas o aros grandes; **avisar antes si hay dolor agudo, cirugías recientes o hernias**. |
-| **07** | **Evaluación Kinesiológica y Postural** | 12 min | Entrevista clínica breve, pruebas activas de movimiento/función para detectar acortamientos musculares y disfunciones posturales, más prescripción de pausas activas e higiene postural. | Espacio libre pequeño / sala clínica | Ropa cómoda y **calzado de uso habitual** para evaluar postura real del día a día; informar uso de plantillas o diagnósticos previos. |
-| **08** | **Test Preventivo de PSA / Screening Capilar** | ~10 min | Toma de muestra capilar rápida mínimamente invasiva bajo protocolo de bioseguridad: Antígeno Prostático Específico (hombres >40 años) o screening metabólico (glucosa/colesterol in situ). | Box privado / sala de enfermería | Para Test de PSA: **abstinencia sexual y de eyaculación 48h previas**; evitar ciclismo o equitación 48h previas (comprimen la próstata); **NO requiere ayuno**. |
+El catálogo de materiales comerciales contiene ocho estaciones. Pueden ofrecerse por separado o combinarse según factibilidad y necesidad de la organización:
 
-## 4. El Flujo Operativo Se Ejecuta en 4 Etapas con Tarifas Escalonadas por Volumen
+1. Evaluación nutricional.
+2. Bioimpedancia.
+3. Evaluación cardiovascular.
+4. Electrocardiograma.
+5. Presoterapia.
+6. Masajes clínicos.
+7. Evaluación kinesiológica.
+8. Test de PSA.
 
-### Proceso de Implementación en 4 Etapas ("De la idea al operativo")
-1. **01 · Conversemos (Diagnóstico y Coordinación):** Reunión virtual de 30 minutos por Google Meet para levantar ubicación, dotación estimada, objetivos de bienestar y combinación de estaciones; acuerdo de fecha y nómina de participantes.
-2. **02 · Diseñemos / Montaje en Oficina:** Instalación del punto de atención con equipamiento clínico portátil, mobiliario ergonómico y ambientación sensorial (aromaterapia + musicoterapia).
-3. **03 · Vamos a Terreno (Evaluación Ágil):** Atención simultánea con registro digital en bloques de 10 a 12 minutos por colaborador.
-4. **04 · Recibe Resultados:** Despacho electrónico de informes individuales confidenciales a cada participante y entrega de reportes estadísticos anónimos a la organización.
+### Indicaciones relevantes confirmadas para las fichas de participantes
 
-### Condiciones Comerciales y Tarifas de Referencia ([Cotización Aguas Araucanía](https://drive.google.com/file/d/1YmI7Dx__TVPK3NuG4dpDJPfYY5iPUZUh/view?usp=drivesdk))
-- **Confirmación de Operativos:** Solicitud formal a `pagos@kardiofit.cl` con al menos **10 días hábiles de anticipación**.
-- **Infraestructura requerida al cliente:** Espacio físico acorde a las estaciones seleccionadas y acceso a corriente eléctrica de **220V**.
-- **Política de Modificaciones y Reprogramación:** Cualquier cambio de alcance implica reevaluación comercial; reprogramaciones requieren mínimo **24 horas de aviso**.
-- **Referencia de Estructura Tarifaria por Volumen (Caso: Presoterapia Corporativa):**
-  - **Tramo 1 (10 sesiones):** $18.000 CLP unitario ($180.000 CLP total; valor ref. lista $20.000 CLP).
-  - **Tramo 2 (15 sesiones):** $15.300 CLP unitario ($229.500 CLP total; valor ref. lista $18.000 CLP).
-  - **Tramo 3 (25 sesiones):** $13.600 CLP unitario ($340.000 CLP total; valor ref. lista $17.000 CLP).
-  - **Tramo 4 (35 sesiones):** $12.000 CLP unitario ($420.000 CLP total; valor ref. lista $16.000 CLP).
+- **Bioimpedancia:** el protocolo de comida, líquidos, ejercicio y restricciones depende de la marca y modelo. No convertir un ejemplo de fabricante en una regla universal. Confirmar con el equipo qué preparación corresponde. Avisar al profesional sobre marcapasos, implantes electrónicos o embarazo antes de participar.
+- **Evaluación cardiovascular:** los materiales indican evitar tabaco, cafeína y ejercicio durante los 30 minutos previos; vaciar la vejiga, descansar sentado al menos cinco minutos y dejar el brazo descubierto. Informar medicamentos; no suspenderlos por cuenta propia. Una medición aislada no confirma un diagnóstico.
+- **Electrocardiograma:** KardioFit informó que usa un equipo Omron de contacto con los dedos que registra **una derivación**. La persona se sienta, apoya los brazos y toca los sensores con los dedos; debe permanecer quieta y seguir las indicaciones. No describirlo como ECG de 12 derivaciones ni como sustituto de uno. La comunicación al paciente debe aclarar el alcance del registro y recomendar que informe si usa marcapasos, desfibrilador u otro dispositivo electrónico implantado.
+- **Presoterapia:** la ficha de participante no debe incluir la frase “Primero, evaluación profesional” en la lista “Antes de tu atención”; el propietario pidió retirarla de esa pieza. Esto no autoriza a omitir procedimientos internos de seguridad que correspondan al protocolo clínico del equipo o del profesional.
+- **Test de PSA:** mantener la indicación discreta de evitar actividad íntima, ciclismo y ejercicio intenso durante las 48 horas previas. No añadir detalles más explícitos en la ficha pública. No afirmar que el método es capilar, que incluye glucosa/colesterol, que aplica a un grupo etario determinado, que no requiere ayuno en todos los casos o que tiene una duración fija sin confirmar el protocolo actual.
+- **Masajes clínicos y evaluación kinesiológica:** presentar el alcance como atención individual y orientación profesional. No prometer alivio clínico garantizado ni diagnósticos automáticos.
 
-## 5. La Herramienta de Evaluación Integral KardioFit Estandariza 8 Módulos de Lógica Clínica y Exportación PDF
+Los flyers actuales sirven como referencia de redacción para asistentes y participantes; la última página es una guía interna de fuentes/coordinación, no material para difusión. Las instrucciones clínicas deben validarse con el profesional responsable y el equipo efectivamente utilizado.
 
-KardioFit ha definido la arquitectura funcional y reglas de negocio para digitalizar su [Herramienta de Evaluación Integral KardioFit y Programa Vida Sana](https://docs.google.com/document/d/193JpCWT1d2Ql2dKR_X95o5eBtffbmGl42oArONkGZA0/edit?usp=drivesdk&ouid=114500116355238873683), utilizada en la evaluación clínica de ingreso, prescripción de ejercicio y seguimiento de usuarios:
+## 5. Confidencialidad, resultados y precisión legal
 
-### Módulo 1: Modelo de Datos y Variables Demográficas
-- **Campos de entrada (Strings):**
-  - `nombre_completo`
-  - `rut` (RUT / Documento de Identidad)
-  - `telefono`
-  - `contacto_emergencia` (Nombre, parentesco y teléfono)
-  - `ocupacion` (Profesión / Ocupación)
-  - `prevision` (Previsión de Salud)
-- **Campo selector (Enum):** `sexo_biologico` (`"Masculino"` | `"Femenino"`).
-- **Variable calculada (`edad`):** Entero oculto calculado automáticamente restando `fecha_nacimiento` a la fecha actual del sistema.
+La confidencialidad es un pilar de la propuesta. Los materiales indican que cada participante recibe su información individual y que la organización obtiene información agrupada sin diagnósticos personales identificables. Antes de prometer el formato, nivel de anonimización, destinatarios o canal de entrega, confirmar contrato, flujo real y controles vigentes. No afirmar “cumplimiento estricto” ni una certificación legal sin auditoría o evidencia actual.
 
-### Módulo 2: Lógica de Alertas Clínicas (Filtro de Seguridad PAR-Q+)
-- **Inputs (5 Booleanos / Checkboxes):**
-  1. `parq_cardiaco`: ¿Su médico le ha diagnosticado alguna afección cardíaca?
-  2. `parq_dolor_pecho`: ¿Siente dolor en el pecho al realizar actividad física o en reposo?
-  3. `parq_mareos`: ¿Pierde el equilibrio por mareos o ha perdido el conocimiento recientemente?
-  4. `parq_medicamentos`: ¿Toma medicamentos para la presión arterial o afecciones cardiovasculares?
-  5. `parq_otra_razon`: ¿Existe alguna otra razón física por la que no debería hacer ejercicio?
-- **Regla de Negocio:**
-  ```text
-  IF (parq_cardiaco OR parq_dolor_pecho OR parq_mareos OR parq_medicamentos OR parq_otra_razon) == TRUE:
-      -> Bloquear asignación automática de cargas de entrenamiento.
-      -> Desplegar banner rojo de alerta: "ALERTA CLÍNICA: Requiere pase médico previo".
-  ```
+Fuentes oficiales revisadas el 23 de octubre de 2026:
 
-### Módulo 3: Fórmulas y Reglas de Antropometría Clínica Funcional
-- **Inputs numéricos (Floats):** `peso_kg`, `estatura_m`, `perimetro_cintura_cm`, `perimetro_cadera_cm`.
-- **Cálculo de IMC:** `imc = peso_kg / (estatura_m * estatura_m)`
-  - `< 18.5` → `"Bajo"`
-  - `18.5 – 24.9` → `"Normal"`
-  - `25.0 – 29.9` → `"Sobrepeso"`
-  - `>= 30.0` → `"Obesidad"`
-- **Categorización de Perímetro de Cintura:**
-  - `Masculino`: `> 94 cm` (`"Riesgo"`), `> 102 cm` (`"Alto Riesgo"`).
-  - `Femenino`: `> 80 cm` (`"Riesgo"`), `> 88 cm` (`"Alto Riesgo"`).
-- **Cálculo de Índice Cintura-Cadera (ICC):** `icc = perimetro_cintura_cm / perimetro_cadera_cm`
-  - **Trigger de Riesgo Alto:** `(sexo_biologico == "Masculino" AND icc > 0.90) OR (sexo_biologico == "Femenino" AND icc > 0.85)`.
+- [Ley 19.628, Biblioteca del Congreso Nacional](https://www.bcn.cl/leychile/navegar?idNorma=141599): marco vigente de protección de la vida privada/datos personales en esta fecha.
+- [Ley 20.584, Biblioteca del Congreso Nacional](https://www.bcn.cl/leychile/navegar?idNorma=1039348): derechos y deberes en atención de salud; contiene reglas relativas a la ficha clínica y su confidencialidad.
+- [Ley 21.719, Biblioteca del Congreso Nacional](https://www.bcn.cl/leychile/navegar?idNorma=1209272): publicada en 2024; su entrada en vigor está fijada para el 1 de diciembre de 2026. A la fecha de revisión, esa fecha es futura. No describir sus disposiciones como ya vigentes antes de esa fecha. Para asesoría o implementación, revisar el texto oficial y obtener revisión legal actualizada.
 
-### Módulo 4: Dinamometría de Mano (Cruce Relacional Normativo Chileno)
-- **Inputs:** `mano_dominante` (`"Derecha"` | `"Izquierda"`), `fuerza_mano_kg` (Float).
-- **Lógica:** Cruzar `fuerza_mano_kg` con `edad` y `sexo_biologico`. Si `fuerza_mano_kg <= umbral_riesgo_funcional`, disparar alerta `"Riesgo Funcional"`:
+## 6. Flujo comercial
 
-| Rango Etario (Años) | Hombres (Promedio) | Hombres (Umbral Riesgo Funcional) | Mujeres (Promedio) | Mujeres (Umbral Riesgo Funcional) |
-|---|---:|---:|---:|---:|
-| **20–29** | 50.0 kg | `<= 30.0 kg` | 31.5 kg | `<= 18.9 kg` |
-| **30–39** | 54.0 kg | `<= 32.4 kg` | 37.0 kg | `<= 22.2 kg` |
-| **40–49** | 50.0 kg | `<= 30.0 kg` | 32.0 kg | `<= 19.2 kg` |
-| **50–59** | 46.0 kg | `<= 27.6 kg` | 30.0 kg | `<= 18.0 kg` |
-| **60–69** | 41.0 kg | `<= 24.6 kg` | 27.0 kg | `<= 16.2 kg` |
-| **70–80** | 35.0 kg | `<= 21.0 kg` | 22.0 kg | `<= 13.2 kg` |
+Flujo recomendado para cotizar y coordinar, sujeto a la operación real:
 
-### Módulo 5 y 6: Evaluación de Movilidad (ROM) y Control Motor
-- **Variables de Movilidad (Selectores `["Óptimo", "Restringido", "Disfuncional con Dolor"]`):**
-  1. `rom_tobillo` (*Lunge Test*): Criterio óptimo = rodilla toca la pared a 10 cm de distancia sin despegar el talón del suelo.
-  2. `rom_cadera` (*Test de Thomas*): Criterio óptimo = muslo reposa plano en la camilla y rodilla cae relajada a 90°.
-  3. `rom_hombro` (*Apley Scratch*): Criterio óptimo = alcanza el borde medial de la escápula contralateral de forma simétrica superior e inferior.
-- **Variables de Técnica Base / Control Motor (Escala `3`: Óptimo, `2`: Logra rango con compensación, `1`: Disfuncional, `0`: Presencia de dolor):**
-  1. `tecnica_sentadilla` (*Squat*): Observar valgo de rodilla, elevación de talones, pérdida de lordosis lumbar.
-  2. `tecnica_bisagra` (*Hinge*): Observar pérdida de contacto del bastón en occipucio, cifosis dorsal o sacro.
-  3. `tecnica_empuje` (*Flexión*): Observar diskinesia escapular, hiperextensión cervical, caída de la pelvis.
-- **Regla de Negocio Crítica:**
-  ```text
-  IF puntaje_patron_biomecanico == 0 (Dolor):
-      -> Inyectar texto automático en el reporte para ese patrón:
-         "Contraindicado el uso de carga externa en este patrón biomecánico".
-  ```
+1. Recibir ciudad/comuna, organización, número aproximado de participantes, objetivos y prestaciones de interés.
+2. Confirmar cobertura, disponibilidad, estaciones, turnos, espacios, energía y fecha.
+3. Preparar una propuesta/cotización para ese alcance. No reutilizar ejemplos de precios de clientes anteriores como tarifa general.
+4. Acordar logística y comunicación a los participantes.
+5. Ejecutar el operativo y entregar los resultados conforme a los acuerdos de confidencialidad y al protocolo vigente.
 
-### Módulo 7: Procesamiento de Batería de Condición Física
-- **Opción A — Test de Ruffier-Dickson (Población general):**
-  - Inputs (lpm): `p0` (reposo), `p1` (post 30 sentadillas), `p2` (post 1 minuto de recuperación).
-  - Fórmula: `indice_ruffier = ((p0 + p1 + p2) - 200) / 10`
-  - Categorías: `< 0` (`"Excelente"`), `0 a 5.0` (`"Muy bueno"`), `5.1 a 10.0` (`"Promedio"`), `10.1 a 15.0` (`"Regular"`), `> 15.0` (`"Deficiente"`).
-- **Opción B — Test de Marcha de 6 Minutos (TM6M):**
-  - Input: `distancia_metros`.
-  - Categorías: `> 450 m` (`"Conservada"`), `300 – 450 m` (`"Deterioro moderado"`), `< 300 m` (`"Deterioro severo"`).
-- **Pruebas Complementarias de Fuerza y Resistencia:**
-  - `sit_to_stand_30s` (repeticiones en 30 seg): `< 12` (`"Deficiente"`), `12 – 19` (`"Promedio"`), `>= 20` (`"Óptimo"`).
-  - `plancha_isometrica_seg` (segundos): `< 30 s` (`"Deficiente"`), `30 – 60 s` (`"Promedio"`), `> 60 s` (`"Óptimo"`).
+La llamada comercial principal es agendar una reunión virtual de 30 minutos por Google Meet o pedir una cotización. Una campaña de octubre de 2026 usó “condiciones comerciales preferenciales”; no se definió un porcentaje o descuento universal. No inventar ofertas, precios o plazos.
 
-### Módulo 8: Generador de Reportes (Exportación a PDF)
-- **Acción:** Botón `"Generar Reporte de Ingreso"` ejecuta renderizado a PDF (ej. `jsPDF` / `html2pdf`).
-- **Filtro de Datos en Frontend:** No imprimir puntuaciones numéricas crudas (ej. ocultar `"Ruffier 14"`). Imprimir únicamente las categorías cualitativas (ej. `"Capacidad de recuperación cardíaca: Regular"`).
-- **Semáforo Visual de Resultados:**
-  - 🟢 **Verde:** Óptimo / Excelente / Muy bueno / Conservada / Normal.
-  - 🟡 **Amarillo:** Restringido / Promedio / Regular / Sobrepeso / Riesgo moderado.
-  - 🔴 **Rojo:** Disfuncional / Deficiente / Deterioro severo / Obesidad / Alto Riesgo / Dolor.
-- **Conclusión Personalizada:** Campo `textarea` libre al final del formulario para que el kinesiólogo redacte indicaciones de cierre que se imprimen al pie del PDF.
+## 7. Sitio, herramientas y estado de implementación
 
-## 6. El Ecosistema Digital y Comercial articula Web, Automatización y Prospección B2B en 300 Cuentas
+- El sitio oficial es WordPress en kardiofit.cl; el repositorio puede contener prototipos, integraciones o documentación que no reflejen el sitio publicado. Inspeccionar el código vigente antes de cambiar formularios, agenda o contenido.
+- **Asistente de ayuda del sitio:** la implementación descrita usa preguntas y respuestas predefinidas. No asumir conexión a un modelo generativo ni inventar respuestas. Derivar a contacto cuando falte información. El propietario no quiere que el mensaje de bienvenida explique que “no es una IA”. Texto de inicio preferido: “Selecciona una pregunta para comenzar”. El propietario pidió quitar la captura de datos para novedades por correo dentro de ese asistente; no volver a añadirla sin nueva instrucción.
+- **Brevo/Mailin:** KardioFit confirmó que usa Brevo. No asumir que está conectado al asistente, formularios, prospección o automatizaciones.
+- **Formulario de cotización:** el endpoint Formspree anotado como actual es [xoevgzgv](https://formspree.io/f/xoevgzgv); el propietario confirmó que las solicitudes llegan a contacto@kardiofit.cl. Comprobar el código publicado antes de modificarlo.
+- **Agenda:** la URL documentada como más reciente en el proyecto es [Google Meet](https://calendar.app.google/v6xf4hpTXqXLiAk6A). Materiales anteriores incluyen otra URL; revisar la integración activa antes de publicarla o sustituirla.
+- WhatsApp debe abrir una conversación con un texto prellenado breve que identifique KardioFit y deje espacio para describir la consulta. Texto usado: “Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:”.
+- El cotizador existe como un archivo HTML. La migración a un plugin de WordPress con acceso privado para socios fue propuesta, pero no se debe afirmar que esté desplegada hasta verificar el repositorio/sitio.
+- Requisitos solicitados para ese cotizador: acceso con usuario y contraseña individual, rol de socio, gestión administrativa, secretos y cálculos sensibles solo en servidor, HTTPS, autorización y validación por petición, consultas preparadas, PDF protegido y cotizaciones separadas por usuario. Son requisitos de diseño/seguridad, no una declaración de que ya estén implementados.
+- Preferencias de interfaz del cotizador: encabezado negro, fondo blanco, acentos naranjos, escalas de participantes 10–14, 15–24, 25–34 y 35+, nombre “Bioimpedancia”, botones “Limpiar”, “Guardar cotización” y “Generar PDF”. El PDF debe ser tamaño carta vertical, centrado y legible en computador y móvil. Verificar el HTML vigente antes de dar por hecho que la versión actual cumple estas decisiones.
 
-### Infraestructura Web y Comunicaciones
-- **Sitio Web Oficial:** [https://kardiofit.cl](https://kardiofit.cl/)
-  - **CMS y Hosting:** WordPress ([Aviso de actualización WordPress](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1879677310949940308), alojado en DonWeb según [Confirmación de dominio kardiofit.cl](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1867578078991758798)).
-  - **Captura de Leads / Cotizaciones:** Formulario web conectado vía Formspree ([Solicitudes de cotización Formspree](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1878137315541097007)) y agenda directa de Google Meet.
-  - **Entorno de Pruebas / Prototipo Previo:** `kardiofit-operativos.erosv-kine.chatgpt.site`.
-- **Canales Oficiales de Contacto:**
-  - **Correo General y Comercial:** `contacto@kardiofit.cl`
-  - **Correo Dirección Kinesiológica:** `eros@kardiofit.cl`
-  - **Correo Confirmación y Facturación:** `pagos@kardiofit.cl`
-  - **WhatsApp y Teléfonos:** `+56 9 8880 2424` / `+56 9 2034 4764`
-  - **Agenda de Reuniones Virtuales (30 min Google Meet):** `https://calendar.app.google/v6xf4hpTXqXLiAk6A` (en el sitio de trabajo también se integra Google Calendar Appointment Scheduling mediante iframe; revisar el código vigente antes de modificarlo) ([Campaña Octubre KardioFit](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1878867304190115776))
-  - **Instagram:** `@kardiofitchile`
-  - **Infraestructura de Email Marketing:** Subdominio `r.send.kardiofit.cl` (plataforma Mailin / Brevo, [Test de campaña Octubre](https://mail.google.com/mail/?authuser=erosv.kine@gmail.com#all/thread-f:1879078295319781935)).
-  - **Horario de Atención:** Lunes a Viernes de 08:00 a 18:00 hrs.
+## 8. Canales oficiales
 
-### Estrategia de Prospección B2B y Base de Cuentas Objetivo
-KardioFit gestiona una matriz comercial estructurada para prospección saliente y licitaciones:
-1. **Base de 300 Cuentas Prioritarias ([KardioFit | Prospección B2B — RM y La Araucanía | 300 cuentas](https://docs.google.com/spreadsheets/d/1V6YGrpIbj1EJusF4AZNkgoGYT8iX4SxoLm7v_WpY2dY/edit?usp=drivesdk&ouid=114500116355238873683)):**
-   - **Distribución geográfica:** 200 empresas en la Región Metropolitana y 100 empresas en la Región de La Araucanía (priorizando Villarrica con 10 cuentas, Pucón con 6 cuentas y Temuco con 57 cuentas).
-   - **Criterio de segmentación:** Nómina oficial SII 2024 (empresas con `>= 200` trabajadores dependientes y tramos de ventas `10–13`), apuntando a decisores de **RR.HH., Gestión de Personas, Calidad de Vida y Comités de Bienestar**, complementada con la [Base de Datos Segmentada - Operativos Kardiofit](https://docs.google.com/spreadsheets/d/1jdRCCEfBBd2GyAnuQBRP0MG4uDZK3EUZ6UAPu1N2WzE/edit?usp=drivesdk&ouid=114500116355238873683).
-2. **Monitoreo de Señales de Demanda y Compras Públicas:**
-   - Seguimiento activo de 17 señales de demanda documentadas en empresas con operativos preventivos recientes (como Grupo Patio en centros comerciales de RM y Temuco, Sigdo Koppers y Laboratorios Prater) y monitoreo de licitaciones / Compras Ágiles de bienestar, ergonomía y masajes en **Mercado Público**.
+- Web: [kardiofit.cl](https://kardiofit.cl/).
+- Correo comercial: contacto@kardiofit.cl.
+- WhatsApp: +56 9 8880 2424.
+- Teléfono: +56 9 2034 4764.
+- Instagram: @kardiofitchile.
+- Correo de pagos/facturación que figura en documentos internos: pagos@kardiofit.cl; verificar antes de comunicar instrucciones de pago.
+- Reuniones virtuales: Google Meet; confirmar enlace y disponibilidad en la agenda activa.
 
-## 7. Decisiones recientes del propietario y contexto vigente del sitio
+No divulgar correos privados de los fundadores, domicilios tributarios ni información de pacientes/prospectos en contenido público.
 
-> Esta sección documenta decisiones explícitas del propietario compartidas al trabajar en el sitio KardioFit. Si una afirmación antigua de este archivo entra en conflicto con esta sección o con una instrucción posterior del propietario, usar la indicación más reciente. Antes de comunicar precios, protocolos, cobertura o estado técnico como actuales, verificar la fuente vigente.
+## 9. Marca, diseño y tono
 
-### Oferta y posicionamiento que deben reflejarse en el sitio
-- KardioFit ofrece operativos de salud preventiva en terreno para organizaciones. El equipo coordina la jornada en las instalaciones del cliente y adapta estaciones, alcance y fecha a las necesidades del equipo.
-- El sitio presenta ocho estaciones: evaluación nutricional, bioimpedancia, evaluación cardiovascular, electrocardiograma, presoterapia, masajes clínicos, evaluación kinesiológica y Test de PSA. No afirmar que todas las estaciones están disponibles para toda organización ni agregar prestaciones que el propietario no haya confirmado.
-- La propuesta comercial del sitio destaca que no hay mínimo de participantes y que los servicios se adaptan a cada organización. La cobertura habitual que se comunica es Región Metropolitana, La Araucanía y Los Ríos; Valparaíso se coordina según disponibilidad.
-- El flujo web invita a cotizar o reservar una reunión virtual de 30 minutos por Google Meet. La agenda externa indicada por el propietario es `https://calendar.app.google/v6xf4hpTXqXLiAk6A`. El sitio de trabajo también contiene una integración iframe de Google Calendar; confirmar el código vigente antes de cambiarla.
+- La comunicación debe sentirse profesional, cercana, confiable, preventiva y confidencial; evitar alarmismo, jerga clínica innecesaria y promesas de resultados.
+- Sistema visual: logotipo KardioFit y combinación de blanco, negro o azul marino con naranja. El pitch deck usa naranja #E84118 y las fichas recientes usan #FF5B18; confirmar los archivos de marca actuales antes de tratar un código como token universal.
+- Para materiales comerciales: jerarquía clara, títulos legibles, fotografía protagonista, composición limpia, aireada y ordenada; llamadas a la acción fáciles de ubicar. Mantener fechas, horarios, ubicaciones y canales de inscripción editables cuando la pieza vaya a personalizarse por operativo.
+- Piezas de operativos: ocho fichas coordinadas; campos de fecha, horario, lugar y contacto de inscripción en blanco hasta que coordinación los complete. El ECG explica el Omron de una derivación por contacto de los dedos; el PSA usa lenguaje discreto. El bloque “En tu empresa / Atención individual / Datos confidenciales” comunica beneficios de servicio, sin sustituir la explicación de privacidad.
+- En el sitio, el propietario ha preferido navegación y títulos centrados en algunas secciones, encabezado compacto, jerarquía visual clara, ayuda cordial, imágenes regionales bien encuadradas y una sección de contacto/cotización con presencia visual. Revisar el diseño en escritorio y móvil.
+- Métricas usadas en piezas y web: “+200 instituciones”, “+200.000 colaboradores” y “+2 años de experiencia”. Son claims comerciales publicados, no cifras auditadas aquí. Antes de reutilizarlos, comprobar vigencia, fuente, periodo y si se refieren a KardioFit o a la trayectoria del equipo. Nunca presentarlos como resultados de salud.
 
-### Canales y formularios vigentes según las instrucciones más recientes
-- Correo comercial: `contacto@kardiofit.cl`.
-- WhatsApp: `+56 9 8880 2424`; teléfono: `+56 9 2034 4764`.
-- Los enlaces de WhatsApp deben abrir una conversación con un texto prellenado que identifique a KardioFit y deje espacio para que la persona describa su solicitud. Texto base usado en el sitio: “Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:”.
-- El formulario de cotización usa actualmente Formspree `https://formspree.io/f/xoevgzgv`. Las cotizaciones se reciben en `contacto@kardiofit.cl`, confirmado por el propietario.
+## 10. Prospección B2B
 
-### Asistente de ayuda y consentimiento de marketing
-- La ayuda flotante del sitio orienta sobre la información publicada y ofrece derivar a WhatsApp, correo o teléfono. Su presentación preferida es clara, cordial y con la marca KardioFit.
-- El asistente implementado en el sitio de trabajo se basa en preguntas y respuestas predefinidas; no tiene un modelo generativo conectado. Tratar esta frase como nota interna de implementación, no como texto para visitantes. No afirmar capacidades que el producto no tenga ni inventar respuestas; derivar al equipo cuando falte información.
-- La idea inicial contempló sugerir dejar datos para email marketing, pero el propietario pidió después eliminar la sección de novedades por correo dentro del asistente. No volver a agregar esa captura de datos al asistente sin una nueva instrucción. Mantener cualquier otro formulario y consentimiento de marketing sujeto a su propósito y configuración propios.
-- El propietario confirma que KardioFit también utiliza Brevo. No asumir que Brevo está conectado al asistente, al formulario de cotización o a la hoja de prospectos, ni que haya sincronización o automatizaciones activas; esos detalles y los consentimientos asociados deben verificarse antes de afirmarlos.
-- Texto que el propietario prefirió como instrucción de inicio del asistente: “Selecciona una pregunta para comenzar”. Evitar explicar al visitante que la herramienta “no es una IA”.
+La fuente de trabajo documentada es la hoja privada [KardioFit | Prospección B2B — RM y La Araucanía | 300 cuentas](https://docs.google.com/spreadsheets/d/1V6YGrpIbj1EJusF4AZNkgoGYT8iX4SxoLm7v_WpY2dY/edit).
 
-### Preferencias visuales y decisiones de interfaz
-- La marca debe sentirse corporativa, confiable, seria y amable, con impacto visual. Mantener la identidad naranja y azul marino; cuidar que la expresividad visual no reduzca legibilidad ni confianza.
-- El propietario pidió títulos y subtítulos centrados en las secciones para una presentación más profesional, un encabezado más compacto y los enlaces de navegación rápida centrados, conservando el botón principal de contacto. El CTA de hablar con un experto debe incluir un icono de auricular.
-- El ticker superior debe verse mejor y no debe incluir botón de pausa.
-- En la sección de estaciones, reducir el espacio ocupado por los botones y la imagen para que se alcance a leer la explicación sin tener que desplazarse. En escritorio evitar bordes grises que resten prolijidad; en móvil el texto completo debe aparecer debajo de la imagen, sin recortes ni desbordes.
-- La sección de cobertura usa una imagen representativa diferente por región. Valparaíso debe conservar el encuadre original con `object-fit: cover`: el propietario probó el encuadre sin zoom y pidió restaurar el anterior.
-- La sección de compromiso/testimonios debe ser compacta, con la imagen centrada en las personas y textos más breves. El bloque de contacto directo debe mantenerse separado del formulario y presentarse horizontalmente en escritorio.
-- La sección de contacto/cotización debe tener presencia naranja y atractiva. La sección de confidencialidad debe comunicar autoridad y reserva, con un tratamiento visual de fondo acorde.
-- El logotipo del encabezado debe conservar fondo transparente.
+- Diseño de la base: 300 cuentas objetivo, 200 en Región Metropolitana y 100 en La Araucanía, identificadas usando nómina SII del año comercial 2024. Es un universo de empresas, no 300 contactos verificados ni una campaña ya ejecutada.
+- Las señales de domicilio tributario no confirman una sucursal, una operación local ni cuántos trabajadores podrían participar. Verificar ubicación real, cargo, vigencia y pertinencia antes del contacto.
+- La planilla organiza cuentas, contactos, actividades, indicadores, protocolo/legal y señales públicas de demanda. Mantener nombres, correos, teléfonos y RUT de contactos dentro de la hoja con acceso apropiado; no copiarlos a este archivo, a prompts, ni a textos publicitarios.
+- El último estado documentado para el tablero (21 de octubre de 2026) mostraba 300 cuentas pendientes de contacto y no registraba actividades. Ese dato es una instantánea histórica; consultar la hoja antes de afirmar el estado actual.
+- Las 17 señales de demanda documentadas pueden referirse a eventos pasados o procesos cerrados. Confirmar que una oportunidad siga vigente antes de tratarla como intención de compra.
+- La base requiere verificación continua de cargos y correos, validación de entrega, revisión de exclusiones y revisión legal/comercial de la base jurídica y el texto de contacto. No afirmar que las direcciones están verificadas o que la campaña ya se inició sin comprobarlo.
+- Prioridad territorial documentada para la iniciativa de 300 cuentas: Región Metropolitana y La Araucanía. El alcance comercial habitual puede incluir Los Ríos; no confundir cobertura de servicios con el filtro geográfico de esta hoja.
 
-### Regla de precisión para asistentes
-- Este documento reúne información corporativa, comercial, clínica, ideas de producto y referencias históricas. No asumir que cada elemento es vigente o está aprobado para publicar.
-- Las tarifas, políticas, promesas de resultados, claims como reducción de ausentismo/cortisol, contraindicaciones, instrucciones para participantes y afirmaciones de cumplimiento legal deben validarse con el responsable clínico/comercial y, cuando corresponda, fuentes oficiales actuales. No inventar precios, disponibilidad ni compromisos.
-- Las especificaciones de la “Herramienta de Evaluación Integral KardioFit” y sus módulos de evaluación son un proyecto distinto del catálogo de operativos del sitio. No presentarlo como una aplicación ya desplegada ni como una prestación incluida, salvo confirmación del propietario.
-- Proteger los datos de salud: no diagnosticar ni sustituir una consulta profesional. En contenido para clientes, usar solo la información necesaria y no divulgar los datos personales internos incluidos en este documento.
+## 11. Fuentes y límites de este contexto
 
-## 8. Historial de correcciones relevantes para futuras ediciones
-- En octubre de 2026, el propietario cambió el endpoint del formulario de cotización a `xoevgzgv`.
-- En octubre de 2026, el propietario actualizó la agenda de Google Meet a `https://calendar.app.google/v6xf4hpTXqXLiAk6A` e integró el iframe de Google Calendar Appointment Scheduling en la página de reunión.
-- En octubre de 2026, el propietario pidió revertir el zoom-out aplicado a la imagen de Valparaíso; conservar el encuadre anterior.
-- En el asistente de ayuda, el propietario pidió retirar la sección de novedades por correo y usar “Selecciona una pregunta para comenzar”.
-- En octubre de 2026, el propietario confirmó que KardioFit también utiliza Brevo; no asumir integraciones o automatizaciones específicas sin verificarlas.
-## 9. Grafo Graphify y prospección B2B de empresas
+- [Sitio oficial KardioFit](https://kardiofit.cl/).
+- [Folleto corporativo KardioFit](https://docs.google.com/document/d/1n6n69zA3Bfw7BP7laRgL8PXu7ZmMbjPZlpR-KEGSCwY/edit).
+- [Material comercial de operativos](https://docs.google.com/document/d/124YbIVQBfwDURd3mQOjM05iz7xEcX-taVNdEGc73-eE/edit).
+- [Flyers de operativos](https://drive.google.com/file/d/145NRAKzTjz2V6QdppBxIzrmUKUBf3zZU/view).
+- [Estatutos de Servicios Médicos Kardiofit SpA](https://drive.google.com/file/d/1Tj_tMcV8Z7b6VcrsfIbCaPpxLwD1RhOt/view).
+- [Inicio de actividades SII](https://drive.google.com/file/d/1cu-QyzJ3y0rfNu9Aw0sSHbFKhNEjBs7t/view).
+- [Prospección B2B: RM y La Araucanía, 300 cuentas](https://docs.google.com/spreadsheets/d/1V6YGrpIbj1EJusF4AZNkgoGYT8iX4SxoLm7v_WpY2dY/edit).
+- [Ley 19.628, BCN](https://www.bcn.cl/leychile/navegar?idNorma=141599), [Ley 20.584, BCN](https://www.bcn.cl/leychile/navegar?idNorma=1039348) y [Ley 21.719, BCN](https://www.bcn.cl/leychile/navegar?idNorma=1209272).
 
-### Qué cubre Graphify y qué no
-- El grafo local del proyecto KardioFit representa principalmente el sitio WordPress y su implementación: marca y recursos visuales, servicios y cobertura regional, accesibilidad/SEO, navegación y contacto, formulario/agenda, privacidad y asistente de ayuda. El reporte graphify-out/GRAPH_REPORT.md está fechado el 7 de octubre de 2026 y registra 33 archivos, 203 nodos, 223 relaciones y 29 comunidades.
-- Graphify no contiene la base de empresas prospecto de Drive: una búsqueda específica del grafo no encontró nodos de prospección ni CRM. El grafo es un mapa de relaciones del proyecto, no la fuente maestra del negocio ni del pipeline comercial.
-- El reporte de Graphify advierte 6 archivos no clasificados, 67 nodos aislados y 3 comunidades pequeñas omitidas. Considerar el mapa incompleto y abrir las fuentes originales cuando se necesiten detalles. Fuentes principales identificadas: ASSISTANT-INTEGRATION.md, SEO-AUDIT.md, REGIONAL-ASSETS.md y wordpress-theme/kardiofit/front-page.php.
-- Hay documentación local que quedó atrás de decisiones del propietario: ASSISTANT-INTEGRATION.md aún describe una invitación de novedades por correo en el asistente, aunque el propietario pidió retirarla; además dice que no hay plataforma de email marketing configurada, pero el propietario confirmó que KardioFit también usa Brevo. Registrar Brevo como herramienta existente; su conexión con el sitio, el asistente o la hoja de prospectos, las automatizaciones activas y el estado de consentimientos no se han verificado. El documento local también indica que la guía usa respuestas predefinidas y no tiene un modelo generativo conectado. Esto es una nota interna de implementación: no convertirla en un aviso para visitantes, porque el propietario pidió no presentar la ayuda diciendo que no es una IA.
-- El tema local contiene la integración actual de Google Calendar y Formspree. El propietario confirmó que las cotizaciones sí llegan a contacto@kardiofit.cl. Si una nota antigua de instalación pide volver a confirmar la recepción, prevalece esta confirmación posterior.
-
-### Fuente maestra de prospección en Drive
-- Hoja activa: [KardioFit | Prospección B2B — RM y La Araucanía | 300 cuentas | 2026-10-20](https://docs.google.com/spreadsheets/d/1V6YGrpIbj1EJusF4AZNkgoGYT8iX4SxoLm7v_WpY2dY/edit). Drive indica que se actualizó el 21 de octubre de 2026. Existe además un respaldo anterior con fecha 19 de octubre; para información vigente, consultar la hoja activa.
-- La iniciativa construye una base B2B de empresas prospecto para los operativos KardioFit. La hoja Empresas 300 contiene 300 razones sociales/RUT distintos, extraídos de nómina oficial del SII para el año comercial 2024: 200 con domicilio tributario en la Región Metropolitana y 100 en La Araucanía. El filtro documentado es 200 o más trabajadores dependientes y tramo de ventas SII 10–13; el tablero informa 277 cuentas con 300 o más trabajadores.
-- El domicilio del SII es domicilio tributario o casa matriz y no prueba dónde trabaja la dotación ni que exista una sede local. Verificar planta, sucursal y operación real antes de prometer cobertura o estimar participantes. Prioridad territorial: Villarrica (10 cuentas), Pucón (6) y Temuco (57), además del resto de La Araucanía y la RM. Entre los sectores más numerosos están servicios/apoyo (67), construcción (60) y comercio/retail (47).
-- La hoja organiza el trabajo en seis pestañas: Empresas 300 (cuentas, prioridad, fuente y verificación), Contactos (decisores y estado de datos laborales), Actividades (historial y próximas acciones), Control (indicadores), Protocolo y legal (criterios, fuentes y resguardos) y Señales de demanda (evidencia pública y pertinencia de servicios).
-- Fotografía del tablero Control: 300 cuentas identificadas, 300 aún no contactadas, 0 contactadas y 0 actividades registradas; 19 sitios institucionales revisados y 10 evidencias de presencia local. El tablero cuenta 14 nombres/cargos y 14 correos laborales publicados, 9 teléfonos laborales y ningún WhatsApp de RR.HH.; no hay correos con entrega validada. Por tanto, no describir la base como 300 decisores verificados ni como una campaña ya iniciada.
-- Hay una diferencia interna que debe reconciliarse antes de contactar: Control cuenta 14 contactos con nombre/cargo y 14 correos publicados, mientras la pestaña Protocolo y legal todavía dice 7 y 7, y 4 teléfonos. Usar los indicadores actuales de Control solo como fotografía de trabajo y revisar la planilla antes de publicar cifras.
-- La pestaña Señales de demanda contiene 17 registros de eventos o indicios públicos, con foco en bienestar, operativos preventivos, masajes, ferias y compras/licitaciones. Muchas señales describen actividades pasadas o procesos cerrados; cada oportunidad debe verificarse como vigente y abierta antes de tratarla como intención de compra.
-- El protocolo de Drive registra como pendientes la revisión de licitud/base jurídica de contacto, el cotejo con una lista de exclusión, la vigencia de los cargos y la validación de entrega de correos; indica que aún no se han enviado contactos. El protocolo cita la Ley 21.719 y una fecha de entrada en vigor del 1 de diciembre de 2026: tratarlo como una nota de la planilla, no como asesoría legal verificada, y confirmar requisitos vigentes con fuentes oficiales y asesoría competente.
-- La hoja puede contener datos personales y comerciales de prospectos. Mantener nombres, correos, teléfonos y RUT de contacto dentro de Drive con acceso apropiado; no copiar registros individuales a este contexto, prompts, materiales públicos o respuestas de marketing. Para análisis por IA, preferir métricas agregadas y fuentes públicas verificables.
+Este documento es un resumen para dar continuidad a tareas de IA. No reemplaza los documentos corporativos, el código publicado, la planilla privada, la revisión del profesional responsable ni asesoría legal. Actualizarlo cuando el propietario confirme un cambio y conservar claramente qué es vigente, qué es histórico y qué requiere validación.
