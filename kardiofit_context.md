@@ -19,7 +19,7 @@
 - **Sitio:** [kardiofit.cl](https://kardiofit.cl/).
 - **Actividad:** operativos de salud preventiva y bienestar corporativo realizados en las instalaciones del cliente.
 - **Equipo fundador:** Michelle Loaiza y Eros Valdivia, ambos kinesiólogos titulados.
-- **Propuesta central:** acercar prestaciones preventivas a los equipos de trabajo durante su jornada, con coordinación en terreno, atención individual y entrega reservada de resultados.
+- **Propuesta central:** acercar prestaciones preventivas a los equipos de trabajo durante su jornada, con coordinación en terreno, atención individual e informes digitales con entrega reservada de resultados.
 - **Lemas usados:** “Personas saludables. Organizaciones más fuertes.”; “Salud preventiva en tu empresa. Cero fricción.”; “Un momento para ti. Un paso por tu bienestar.” Son alternativas de comunicación, no afirmaciones clínicas.
 - La sociedad se constituyó el 2 de octubre de 2026 y el inicio de actividades ante el SII figura el 19 de octubre de 2026 en los documentos corporativos enlazados por el propietario. Para trámites, facturación o datos tributarios, consultar los documentos vigentes; no inferir otros datos societarios.
 
@@ -31,7 +31,7 @@ La empresa lleva el operativo a las instalaciones para que el equipo no tenga qu
 
 - **Cobertura habitual comunicada:** Región Metropolitana, La Araucanía y Los Ríos.
 - **Valparaíso:** se coordina según disponibilidad.
-- Para otras regiones, confirmar logística y disponibilidad antes de ofrecer cobertura. No prometer cobertura nacional automática.
+- **Ñuble y Biobío:** aparecen en conversaciones anteriores de prospección, pero eso no confirma cobertura operativa. Confirmar logística y disponibilidad antes de ofrecer servicios en estas u otras regiones; no prometer cobertura nacional automática.
 - No fijar un tiempo universal por participante. La duración depende de la estación, el equipo, el flujo y la cotización acordada.
 
 ## 4. Catálogo y límites de comunicación clínica
@@ -52,6 +52,7 @@ El catálogo de materiales comerciales contiene ocho estaciones. Pueden ofrecers
 - **Bioimpedancia:** el protocolo de comida, líquidos, ejercicio y restricciones depende de la marca y modelo. No convertir un ejemplo de fabricante en una regla universal. Confirmar con el equipo qué preparación corresponde. Avisar al profesional sobre marcapasos, implantes electrónicos o embarazo antes de participar.
 - **Evaluación cardiovascular:** los materiales indican evitar tabaco, cafeína y ejercicio durante los 30 minutos previos; vaciar la vejiga, descansar sentado al menos cinco minutos y dejar el brazo descubierto. Informar medicamentos; no suspenderlos por cuenta propia. Una medición aislada no confirma un diagnóstico.
 - **Electrocardiograma:** KardioFit informó que usa un equipo Omron de contacto con los dedos que registra **una derivación**. La persona se sienta, apoya los brazos y toca los sensores con los dedos; debe permanecer quieta y seguir las indicaciones. No describirlo como ECG de 12 derivaciones ni como sustituto de uno. La comunicación al paciente debe aclarar el alcance del registro y recomendar que informe si usa marcapasos, desfibrilador u otro dispositivo electrónico implantado.
+- **Versiones históricas:** algunos flyers contienen una mención a ECG de 12 derivaciones. No reutilizarla en la ficha del Omron actual; confirmar si corresponde a otro equipo u operativo antes de recuperarla.
 - **Presoterapia:** la ficha de participante no debe incluir la frase “Primero, evaluación profesional” en la lista “Antes de tu atención”; el propietario pidió retirarla de esa pieza. Esto no autoriza a omitir procedimientos internos de seguridad que correspondan al protocolo clínico del equipo o del profesional.
 - **Test de PSA:** mantener la indicación discreta de evitar actividad íntima, ciclismo y ejercicio intenso durante las 48 horas previas. No añadir detalles más explícitos en la ficha pública. No afirmar que el método es capilar, que incluye glucosa/colesterol, que aplica a un grupo etario determinado, que no requiere ayuno en todos los casos o que tiene una duración fija sin confirmar el protocolo actual.
 - **Masajes clínicos y evaluación kinesiológica:** presentar el alcance como atención individual y orientación profesional. No prometer alivio clínico garantizado ni diagnósticos automáticos.
@@ -100,14 +101,15 @@ La llamada comercial principal es agendar una reunión virtual de 30 minutos por
 - Instagram: @kardiofitchile.
 - Correo de pagos/facturación que figura en documentos internos: pagos@kardiofit.cl; verificar antes de comunicar instrucciones de pago.
 
-
 ## 9. Marca, diseño y tono
 
 - La comunicación debe sentirse profesional, cercana, confiable, preventiva y confidencial; evitar alarmismo, jerga clínica innecesaria y promesas de resultados.
 - Sistema visual: logotipo KardioFit y combinación de blanco, negro o azul marino con naranja. El pitch deck usa naranja #E84118 y las fichas recientes usan #FF5B18; confirmar los archivos de marca actuales antes de tratar un código como token universal.
-- Para materiales comerciales: jerarquía clara, títulos legibles, fotografía protagonista, composición limpia, aireada y ordenada; llamadas a la acción fáciles de ubicar. Mantener fechas, horarios, ubicaciones y canales de inscripción editables cuando la pieza vaya a personalizarse por operativo.
-- En los flyers del operativo, mantener fecha, horario, lugar y canal de inscripción en blanco hasta que coordinación los complete. El bloque “En tu empresa / Atención individual / Datos confidenciales” debe leerse como beneficios del servicio y mantener una alineación visual uniforme.
-- En el sitio, el propietario ha preferido navegación y títulos centrados en algunas secciones, encabezado compacto, jerarquía visual clara, ayuda cordial, imágenes regionales bien encuadradas y una sección de contacto/cotización con presencia visual. Revisar el diseño en escritorio y móvil.
+- Para materiales comerciales: jerarquía clara, títulos legibles, fotografía protagonista y composición limpia, aireada y ordenada. Mantener fechas, horarios, ubicaciones y canales de inscripción editables cuando la pieza vaya a personalizarse por operativo.
+- **Flyers de operativos:** se diseñan para que la persona encargada en la organización (por ejemplo, RR. HH. o Bienestar) promocione el operativo entre los participantes. La pieza combina una invitación atractiva con instrucciones de preparación dirigidas al paciente. Mantener fecha, horario, lugar y canal de inscripción en blanco hasta que coordinación los complete. Destacar con tamaño y contraste los beneficios “En tu empresa”, “Atención individual” y “Datos confidenciales”, con alineación uniforme. Hacer visible un llamado circular o tipo sello con “No olvides reservar tu hora”, sin flecha. Las indicaciones clínicas específicas están en la sección 4.
+- En el sitio, el propietario ha preferido navegación y títulos centrados en algunas secciones, encabezado compacto, jerarquía visual clara, ayuda cordial, imágenes regionales bien encuadradas y una sección de contacto/cotización con presencia visual. Entre las ideas solicitadas para la evolución web figuran un mapa de cobertura, testimonios reales, métricas animadas, una presentación visual de públicos y servicios, y mejoras SEO; no asumir que estén implementadas. Revisar el diseño en escritorio y móvil.
+- **Pitch deck B2B:** dirección visual elegida para una presentación comercial de 13 diapositivas: brutalismo corporativo y clínico, negro puro, blanco y naranja #E84118, esquinas rectas y tipografías Montserrat/Outfit. Público: RR. HH., comités de bienestar, empresas, instituciones y agrupaciones. Presentar empresa, catálogo de la sección 4, baja fricción, informes digitales y cierre a reunión; tratar privacidad según la sección 5.
+- **Gráfica vehicular:** se trabajó una propuesta para el parabrisas trasero microperforado de un Kia Rio 5 2018. Preferencias: fondo blanco, logo negro/naranja, “BIENESTAR Y SALUD PREVENTIVA” en mayúsculas, énfasis en “Masajes y bienestar en terreno” y datos oficiales legibles según la sección 8. Verificar las medidas y el arte aprobado antes de producir.
 - Métricas usadas en piezas y web: “+200 instituciones”, “+200.000 colaboradores” y “+2 años de experiencia”. Son claims comerciales publicados, no cifras auditadas aquí. Antes de reutilizarlos, comprobar vigencia, fuente, periodo y si se refieren a KardioFit o a la trayectoria del equipo. Nunca presentarlos como resultados de salud.
 
 ## 10. Prospección B2B
