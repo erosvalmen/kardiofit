@@ -1,6 +1,6 @@
 # KardioFit — contexto maestro para IA
 
-**Versión:** 23 de octubre de 2026  
+**Versión:** 26 de octubre de 2026  
 **Uso:** contexto interno para asistentes de IA, desarrollo, diseño y apoyo comercial. No es una fuente legal ni un protocolo clínico aprobado.
 
 ## 1. Instrucciones para asistentes
@@ -47,6 +47,8 @@ El catálogo de materiales comerciales contiene ocho estaciones. Pueden ofrecers
 7. Evaluación kinesiológica.
 8. Test de PSA.
 
+El catálogo público de ocho estaciones y el catálogo de siete prestaciones del cotizador privado son distintos. La equivalencia, disponibilidad y precio de cada prestación se acuerdan comercialmente; ver sección 13.
+
 ### Indicaciones relevantes confirmadas para las fichas de participantes
 
 - **Bioimpedancia:** el protocolo de comida, líquidos, ejercicio y restricciones depende de la marca y modelo. No convertir un ejemplo de fabricante en una regla universal. Confirmar con el equipo qué preparación corresponde. Avisar al profesional sobre marcapasos, implantes electrónicos o embarazo antes de participar.
@@ -80,17 +82,29 @@ Flujo recomendado para cotizar y coordinar, sujeto a la operación real:
 
 La llamada comercial principal es agendar una reunión virtual de 30 minutos por Google Meet o pedir una cotización. Una campaña de octubre de 2026 usó “condiciones comerciales preferenciales”; no se definió un porcentaje o descuento universal. No inventar ofertas, precios o plazos.
 
-## 7. Sitio, herramientas y estado de implementación
+## 7. Sitio público, herramientas y flujo de contacto
 
-- El sitio oficial funciona en WordPress; el repositorio puede contener prototipos, integraciones o documentación que no reflejen el sitio publicado. Inspeccionar el código vigente antes de cambiar formularios, agenda o contenido.
-- **Asistente de ayuda del sitio:** la implementación descrita usa preguntas y respuestas predefinidas. No asumir conexión a un modelo generativo ni inventar respuestas. Derivar a contacto cuando falte información. El propietario no quiere que el mensaje de bienvenida explique que “no es una IA”. Texto de inicio preferido: “Selecciona una pregunta para comenzar”. El propietario pidió quitar la captura de datos para novedades por correo dentro de ese asistente; no volver a añadirla sin nueva instrucción.
-- **Brevo/Mailin:** KardioFit confirmó que usa Brevo. No asumir que está conectado al asistente, formularios, prospección o automatizaciones.
-- **Formulario de cotización:** el endpoint Formspree anotado como actual es [xoevgzgv](https://formspree.io/f/xoevgzgv); KardioFit confirmó que las solicitudes llegan al correo comercial indicado en la sección 8. Comprobar el código publicado antes de modificarlo.
-- **Agenda:** la URL documentada como más reciente en el proyecto es [Google Meet](https://calendar.app.google/v6xf4hpTXqXLiAk6A). Materiales anteriores incluyen otra URL; revisar la integración activa antes de publicarla o sustituirla.
-- WhatsApp debe abrir una conversación con un texto prellenado breve que identifique KardioFit y deje espacio para describir la consulta. Texto usado: “Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:”.
-- El cotizador existe como un archivo HTML. La migración a un plugin de WordPress con acceso privado para socios fue propuesta, pero no se debe afirmar que esté desplegada hasta verificar el repositorio/sitio.
-- Requisitos solicitados para ese cotizador: acceso con usuario y contraseña individual, rol de socio, gestión administrativa, secretos y cálculos sensibles solo en servidor, HTTPS, autorización y validación por petición, consultas preparadas, PDF protegido y cotizaciones separadas por usuario. Son requisitos de diseño/seguridad, no una declaración de que ya estén implementados.
-- Preferencias de interfaz del cotizador: encabezado negro, fondo blanco, acentos naranjos, escalas de participantes 10–14, 15–24, 25–34 y 35+, nombre “Bioimpedancia”, botones “Limpiar”, “Guardar cotización” y “Generar PDF”. El PDF debe ser tamaño carta vertical, centrado y legible en computador y móvil. Verificar el HTML vigente antes de dar por hecho que la versión actual cumple estas decisiones.
+### Qué corresponde a cada sistema
+
+- **Sitio público:** kardiofit.cl funciona en WordPress. La portada usa un tema KardioFit; en el proyecto local, las piezas principales son wordpress-theme/kardiofit/front-page.php, site.js y help.js. El código local y el sitio publicado pueden diferir; comprobar ambos antes de afirmar que un cambio está desplegado.
+- **Solicitud pública de cotización:** el formulario de la portada envía por Formspree a https://formspree.io/f/xoevgzgv. Pide nombre, organización, correo, participantes estimados, comuna y región; las prestaciones de interés son opcionales. El navegador envía la solicitud y muestra éxito o error en la misma página. No la guarda como cotización en WordPress. El propietario confirmó que las solicitudes llegan al correo comercial.
+- **Reserva de reunión:** la pestaña «Reunión virtual» integra Google Calendar Appointment Scheduling mediante un iframe y ofrece https://calendar.app.google/v6xf4hpTXqXLiAk6A como enlace alternativo. El iframe usa https://calendar.google.com/calendar/appointments/schedules/AcZssZ30m8pzPryHB8dt_Klk5AdqCCwp9gCrCSACo14-QTN8jOEdAhJVoEu8xmg6XyiOVMYRr6AeeVE_?gv=true. La reunión se presenta como una conversación de 30 minutos por Google Meet. La disponibilidad, confirmación y enlace de Meet dependen de Google Calendar.
+- **Cotizador privado para socios:** es un plugin WordPress distinto del formulario público. Su funcionamiento y estado están en la sección 13. No suponer que enviar Formspree crea automáticamente un registro en ese cotizador.
+- **Brevo:** es la herramienta confirmada de email marketing B2B; no se ha comprobado una conexión automática entre Brevo, Formspree, el asistente o el cotizador privado. Una consulta comercial no equivale a consentimiento de marketing.
+
+### Estructura y experiencia de la portada
+
+- La navegación enlaza operativos, cómo funciona, cobertura, privacidad, preguntas y conversación comercial. El encabezado es compacto, con el logo de fondo transparente y un CTA visible.
+- La portada presenta ocho estaciones públicas (sección 4) mediante botones que cambian la imagen, descripción, ejemplos de atención y enlace para cotizar la estación seleccionada. Las imágenes se identifican como referenciales; selección, indicaciones y duración se definen al coordinar.
+- «Cómo funciona» resume cuatro momentos: conversar, diseñar, ir a terreno y entregar resultados. También hay secciones de públicos, confidencialidad, cobertura, compromiso, preguntas frecuentes, reunión/cotización y contacto directo.
+- Cobertura permite elegir Región Metropolitana, Valparaíso, La Araucanía o Los Ríos. Cambian el texto y el paisaje de fondo para cada región; los paisajes generados son representativos, no prueba documental de instalaciones o cobertura. El tema local incluye un mapa simplificado y referencial, pero no se mostró en la vista pública comprobada. La cobertura habitual comunicada es Metropolitana, La Araucanía y Los Ríos; Valparaíso requiere coordinación.
+- La zona de contacto distingue la agenda de la solicitud de cotización. El bloque de WhatsApp, correo y teléfono está separado del formulario y se presenta horizontalmente en escritorio.
+- El WhatsApp directo abre +56 9 8880 2424 con un mensaje prellenado que identifica a KardioFit y deja espacio para la solicitud: «Hola, equipo KardioFit. Quisiera consultar por un operativo de salud preventiva para mi organización. Mi solicitud es:». Las respuestas de ayuda pueden variar el contexto de ese texto.
+- El botón flotante «¿Te ayudamos?» abre una guía de cuatro preguntas predefinidas: operativos, cobertura, cotización y entrega de resultados. Deriva a WhatsApp, correo o teléfono. No hay evidencia de un modelo generativo conectado ni de entrenamiento de IA; no inventar respuestas ni describir capacidades que no existen. La presentación al visitante debe ser cordial y comenzar con «Selecciona una pregunta para comenzar», sin texto que explique que «no es una IA». Se quitó el bloque de suscripción a novedades del asistente; no reponerlo sin instrucción nueva.
+- La sección de privacidad comunica informes individuales electrónicos y reservados, e información agrupada para la organización. Las afirmaciones sobre tratamiento de datos y alcance clínico requieren verificación operativa y legal antes de ampliarse.
+- El sitio contiene metadatos SEO y datos estructurados Organization/Service; WordPress produce su sitemap. Las métricas públicas como «+200 instituciones» y «+200.000 empleados» son claims comerciales y deben verificarse antes de reutilizarlas.
+
+**Verificación puntual del sitio público, 26 de octubre de 2026:** se observaron la portada, las cuatro opciones de ayuda, las cuatro regiones, el endpoint Formspree y la agenda integrada. Esto no confirma la versión exacta del tema instalado ni el funcionamiento de servicios externos en cada visita.
 
 ## 8. Canales oficiales
 
@@ -183,3 +197,51 @@ Esta es una referencia de una campaña concreta, no una configuración para reut
 - La lista “Emails operativos” se seleccionó completa para esa campaña; el recuento mostrado al configurarla fue de 56 contactos. No reutilizar la lista ni el recuento como instrucción para otros envíos.
 - La campaña quedó programada en Brevo para el 27 de octubre de 2026 a las 10:00, hora de Santiago. Este dato es histórico; comprobar el estado de Brevo antes de describir el resultado o cualquier métrica de envío.
 - El banner aprobado para esa campaña fue subido a la biblioteca de contenido de Brevo. Para reutilizarlo, comprobar que la imagen y su URL pública sigan disponibles y correspondan a la marca vigente.
+
+## 13. Cotizador corporativo privado para socios
+
+### Estado y separación del sitio público
+
+- Se preparó el plugin WordPress privado KardioFit Cotizador Privado 0.1.2 y se entregó un ZIP instalable el 26 de octubre de 2026. El propietario pidió compilarlo para subirlo; **no consta aquí que ya se haya instalado ni probado dentro de WordPress**. Confirmar la versión activa en Plugins antes de decir que estas funciones están en producción.
+- La ruta prevista es https://kardiofit.cl/socios/cotizador/. Al visitarla sin sesión el 26 de octubre de 2026, redirigió al inicio de sesión de WordPress. Esa observación confirma el bloqueo anónimo visible, no todas las autorizaciones internas.
+- El catálogo privado de siete prestaciones del cotizador procede del HTML corporativo B2B y **no equivale uno a uno** a las ocho estaciones de la web pública. En particular, no inferir precios automáticos para evaluación nutricional o test de PSA desde este catálogo, ni confundir «Cardiocheck (ECG)» con el protocolo específico del Omron de una derivación mencionado en la sección 4.
+- La fuente de trabajo está en una carpeta local kardiofit-cotizador/: el archivo principal declara la versión; includes/class-kf-access.php controla acceso, class-kf-rest.php expone rutas, class-kf-pricing.php calcula tarifas, class-kf-quotes.php guarda y emite, y assets/dist/app.js y app.css implementan la interfaz. Este repositorio de GitHub contiene este contexto, pero no necesariamente el código del tema o del plugin. Consultar los archivos reales y la instalación antes de editar.
+
+### Acceso, persistencia y seguridad diseñados en el plugin
+
+- La activación crea el rol socio_kardiofit con kf_use_quoter y kf_manage_own_quotes. La cuenta administradora recibe además kf_manage_all_quotes, kf_edit_quote_prices y kf_apply_extra_discount. Las cuentas de socio gestionan sus cotizaciones; sólo un administrador con la capacidad correspondiente gestiona las ajenas y modifica valores base o bonificaciones especiales.
+- La página privada exige sesión y capacidades. Las rutas REST bajo /wp-json/kardiofit/v1/ exigen autorización; las operaciones sobre una cotización comprueban propietario o capacidad de administración. Los datos se guardan en una tabla privada de WordPress, no en la bandeja pública de Formspree.
+- El servidor PHP es la fuente autorizada para catálogo, tramos, redondeo, traslado, bonificaciones y total. El navegador muestra el cálculo, pero no puede fijar por sí mismo el total oficial. Se conservan versiones de precios y un snapshot de los valores cuando se emite una cotización.
+- El historial antiguo del HTML, que estaba en localStorage, puede importarse de forma asistida: primero se revisan conteos, luego se confirma; el servidor valida y recalcula. La importación no borra los datos locales salvo elección expresa y confirmación de importación completa.
+- No guardar en cotizaciones o notas diagnósticos, resultados de exámenes ni información clínica individual. Se debe revisar la configuración de caché, respaldos, accesos y retención en la instalación real.
+
+### Uso y documento comercial
+
+- El formulario privado recoge empresa, RUT, contacto, correo, fecha, nota interna, líneas de servicios, participantes por línea y traslado. La nota interna queda fuera del documento enviado al cliente.
+- En la barra superior y al pie están Nueva/Limpiar, Vista previa PDF, Guardar o actualizar Standby y Bandeja Standby/Historial. El catálogo se organiza por categorías y muestra las escalas de descuento; se puede repetir o duplicar un servicio, quitarlo, ajustar su cantidad independiente con −5/+5 o los valores rápidos 10/15/25/35/50 e igualar todas las líneas sólo mediante una acción explícita. El RUT añade puntos y guion al completarlo.
+- El historial permite buscar, filtrar Standby/Emitidas, retomar, duplicar, cambiar estado y eliminar. Un borrador puede actualizarse o guardarse como copia nueva. La vista previa consulta un endpoint autenticado que recalcula sin guardar ni emitir. La emisión congela el desglose y la vigencia de ocho días corridos.
+- La hoja tamaño carta incluye presentación, cliente, servicios con descripción e impacto, descuentos, traslado, total y promedio por colaborador. La versión 0.1.2 usa el diálogo del navegador «Imprimir / guardar como PDF» a partir del snapshot autenticado; **no descarga automáticamente un PDF con html2pdf.js ni lo guarda en una URL pública**.
+- El plugin no envía por sí solo cotizaciones al correo contacto@kardiofit.cl ni crea una suscripción en Brevo. El Formspree del sitio público es un flujo distinto.
+
+### Referencia de tarifas internas del código 0.1.2
+
+Estas son **tarifas de venta internas del código recibido, no precios públicos ni una oferta universal**. Comprobar política comercial y versión de tarifa antes de usarlas con un cliente:
+
+| Prestación del cotizador privado | Base por persona (CLP) |
+|---|---:|
+| Chequeo Cardiovascular | $15.000 |
+| Screening Metabólico | $17.000 |
+| Cardiocheck (ECG) | $19.000 |
+| Evaluación Kinesiológica | $12.000 |
+| Bioimpedancia | $25.000 |
+| Masaje en Silla | $14.000 |
+| Presoterapia | $14.000 |
+
+- Tramos generales: 1–9 personas, 0 %; 10–14, 10 %; 15–24, 15 %; 25–34, 20 %; 35 o más, 25 %. Masaje en Silla usa 0 %, 5 %, 10 %, 15 % y 20 % en esos mismos tramos.
+- Se redondea el precio unitario descontado antes de multiplicar por cantidad. El traslado se agrega al subtotal; una bonificación adicional autorizada puede ser porcentaje o monto y no reduce el total por debajo de cero. No añadir IVA ni otras reglas tributarias sin definición comercial. La versión interna de reglas en PHP es 2026-10-24-v1; difiere del número de versión del plugin.
+
+### Validación y mantenimiento
+
+- Antes de empaquetar 0.1.2 pasaron 12 pruebas locales de interacción y contratos estáticos, incluidas cantidades independientes, vista previa sin emisión, filtros, copia nueva y RUT. El entorno local no contaba con PHP o WordPress para integración; no se ha certificado el comportamiento del ZIP en el servidor.
+- Al actualizar, verificar el acceso con cuentas anónima, socio y administradora; propiedad de datos entre dos socios; cálculo y permisos comerciales; historial; vista previa; impresión en carta y móvil; persistencia tras reemplazar el plugin; y exclusión de caché de la ruta privada y REST.
+- No mezclar el formulario público de interesados con la base privada de cotizaciones ni dar por publicado un ZIP sólo porque se haya compilado. Registrar fecha, versión realmente instalada y resultados de las pruebas de aceptación tras cada actualización. El grafo local graphify-out/graph.json se generó el 7 de octubre de 2026 y precede a este plugin; regenerarlo antes de tomarlo como autoridad sobre el cotizador.
