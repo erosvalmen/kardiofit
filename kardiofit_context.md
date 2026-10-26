@@ -132,3 +132,54 @@ La fuente de trabajo documentada es la hoja privada [KardioFit | Prospección B2
 - [Inicio de actividades SII](https://drive.google.com/file/d/1cu-QyzJ3y0rfNu9Aw0sSHbFKhNEjBs7t/view).
 
 Las referencias legales están en la sección 5, la planilla de prospección en la sección 10 y el sitio oficial en la sección 2. Este documento resume contexto para tareas de IA; no reemplaza documentos corporativos vigentes, el código publicado, la revisión del profesional responsable ni asesoría legal. Actualizarlo cuando el propietario confirme un cambio y distinguir datos actuales, históricos y por validar.
+
+## 12. Email marketing B2B y Brevo
+
+### Objetivo y enfoque
+
+- Para campañas B2B dirigidas a RR. HH., Gestión de Personas, Calidad de Vida o Bienestar, definir **un objetivo principal por correo**. Para una campaña de presentación, ese objetivo puede ser conseguir una reunión breve para conocer las prioridades de la organización y explorar cómo colaborar.
+- Cuando la meta sea conversar, usar un tono cercano, humano, profesional y directo. Presentar disponibilidad para escuchar y conocer necesidades; no convertir el correo en un catálogo, una cotización no solicitada ni una oferta.
+- No añadir descuentos, urgencia artificial, promesas clínicas o resultados garantizados sin autorización y evidencia. Distinguir claramente una campaña de reunión de una campaña de oferta.
+- Mantener el texto breve, dividido en pocos párrafos y fácil de leer en móvil. Hablar de necesidades de bienestar preventivo en la organización sin alarmismo ni jerga clínica innecesaria.
+- Usar un asunto conversacional y veraz y un preencabezado que amplíe la invitación. El asunto y el preencabezado no deben crear expectativas distintas del contenido.
+
+### Estructura, llamada a la acción y marca
+
+- Dar prioridad a una sola llamada a la acción (CTA) visible y descriptiva; dejar responder directamente al correo como alternativa humana. El sitio puede aparecer como enlace secundario, sin competir visualmente con el CTA principal.
+- Para el tipo de campaña de presentación, la frase elegida para el botón fue **“Agendar una reunión breve”**. En el correo de octubre de 2026 el enlace de agenda usado fue [Google Meet](https://calendar.app.google/ThgCszkxi51r9xZA8), y el enlace secundario fue [kardiofit.cl](https://kardiofit.cl/). Confirmar que la URL de agenda siga vigente antes de reutilizarla: la sección 7 contiene otra URL documentada para agenda.
+- La dirección visual preferida para email es limpia, pulcra y atractiva, con un banner relevante, jerarquía clara y suficiente espacio en blanco. Mantener identidad KardioFit con blanco y negro y acentos naranjos, incluido #E84118 como color usado en la marca. El banner debe complementar el mensaje, no reemplazar el texto.
+- No incluir texto esencial únicamente dentro de una imagen. Añadir texto alternativo descriptivo al banner, cuidar contraste y tamaño de lectura y comprobar que el mensaje se entienda con imágenes desactivadas.
+
+### Implementación HTML en Brevo
+
+- Preferir una estructura sencilla compatible con clientes de correo: tablas para la composición, estilos en línea, ancho adaptable a móvil y enlaces HTTPS. Evitar depender de JavaScript, formularios, fuentes externas o CSS avanzado para comunicar el contenido esencial.
+- Incluir un preencabezado oculto y útil, saludo personalizado sólo cuando exista un campo válido y una alternativa segura cuando falte el nombre. Revisar la personalización en la previsualización con un contacto de prueba; nunca dejar etiquetas de plantilla sin resolver en la versión enviada.
+- Comprobar que las imágenes estén alojadas en una URL pública HTTPS y carguen desde Brevo. Añadir texto alternativo, CTA con etiqueta clara y enlace correcto, enlace al sitio y enlace de baja funcional. Para el editor HTML de Brevo se utilizó el marcador `{{ unsubscribe }}`; validar su funcionamiento con la vista previa y las herramientas actuales de Brevo antes de cada campaña.
+- Antes de programar, revisar vista de escritorio y móvil, carga del banner, personalización con y sin nombre, enlaces, remitente, asunto, preencabezado y baja. Si es posible, enviar un correo de prueba a un buzón interno y revisar el resultado en el cliente de correo. No afirmar que se probó un envío si sólo se revisó la previsualización.
+
+### Audiencia, autorizaciones y programación
+
+- Antes de cada envío, confirmar el objetivo, la lista autorizada, exclusiones pertinentes, remitente, asunto y preencabezado, fecha, hora y zona horaria. La selección de una campaña anterior no autoriza automáticamente una campaña futura a la misma audiencia o en la misma fecha.
+- Usar sólo contactos cuya incorporación y uso para esa campaña hayan sido revisados por el responsable de KardioFit conforme a la base jurídica, las autorizaciones y las políticas vigentes. Respetar bajas, exclusiones y solicitudes de no contacto; no volver a incluir a quien se haya dado de baja. No copiar listas ni datos personales al contexto maestro.
+- Identificar claramente a KardioFit como remitente y mantener un mecanismo de baja accesible. Revisar la normativa vigente y los requisitos actuales de Brevo antes de cada envío; consultar la sección 5 para el contexto legal y su fecha de revisión.
+- Verificar en Brevo la autenticación vigente del dominio antes de programar o ante cambios de remitente/dominio. La autenticación de kardiofit.cl se confirmó previamente durante la configuración de Brevo; ese antecedente no sustituye una comprobación actual.
+- Registrar y respetar la zona horaria elegida en la programación. Para la campaña de octubre de 2026 se confirmó America/Santiago (GMT-03:00).
+
+### Medición y aprendizaje
+
+- Evaluar primero las respuestas recibidas y las reuniones efectivamente agendadas; usar clics al enlace de agenda como señal secundaria. Revisar también rebotes, bajas y quejas para proteger la calidad de la lista.
+- No declarar éxito sólo por aperturas: la medición de aperturas puede ser incompleta o estar afectada por protecciones de privacidad. Comparar resultados con campañas de objetivo y audiencia similares y usar los datos reales antes de decidir cambios.
+- Tratar las recomendaciones de esta sección como pautas de trabajo, no como garantías de conversión. Registrar qué asunto, audiencia, CTA y resultado se observaron, sin guardar datos personales en este archivo.
+
+### Configuración usada como referencia en octubre de 2026
+
+Esta es una referencia de una campaña concreta, no una configuración para reutilizar automáticamente:
+
+- Nombre: “Octubre 2026 | Invitación a reunión KardioFit”.
+- Remitente: “KardioFit | Salud Corporativa” <contacto@kardiofit.cl>.
+- Asunto: “¿Conversamos sobre el bienestar de tu equipo?”.
+- Preencabezado: “Nos gustaría conocer tus prioridades y presentarnos”.
+- CTA: “Agendar una reunión breve”, con respuesta directa como alternativa.
+- La lista “Emails operativos” se seleccionó completa para esa campaña; el recuento mostrado al configurarla fue de 56 contactos. No reutilizar la lista ni el recuento como instrucción para otros envíos.
+- La campaña quedó programada en Brevo para el 27 de octubre de 2026 a las 10:00, hora de Santiago. Este dato es histórico; comprobar el estado de Brevo antes de describir el resultado o cualquier métrica de envío.
+- El banner aprobado para esa campaña fue subido a la biblioteca de contenido de Brevo. Para reutilizarlo, comprobar que la imagen y su URL pública sigan disponibles y correspondan a la marca vigente.
