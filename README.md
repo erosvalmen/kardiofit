@@ -245,3 +245,27 @@ Estas son **tarifas de venta internas del código recibido, no precios públicos
 - Antes de empaquetar 0.1.2 pasaron 12 pruebas locales de interacción y contratos estáticos, incluidas cantidades independientes, vista previa sin emisión, filtros, copia nueva y RUT. El entorno local no contaba con PHP o WordPress para integración; no se ha certificado el comportamiento del ZIP en el servidor.
 - Al actualizar, verificar el acceso con cuentas anónima, socio y administradora; propiedad de datos entre dos socios; cálculo y permisos comerciales; historial; vista previa; impresión en carta y móvil; persistencia tras reemplazar el plugin; y exclusión de caché de la ruta privada y REST.
 - No mezclar el formulario público de interesados con la base privada de cotizaciones ni dar por publicado un ZIP sólo porque se haya compilado. Registrar fecha, versión realmente instalada y resultados de las pruebas de aceptación tras cada actualización. El grafo local graphify-out/graph.json se generó el 7 de octubre de 2026 y precede a este plugin; regenerarlo antes de tomarlo como autoridad sobre el cotizador.
+
+## 14. Aplicación contable de KardioFit (estado al 31 de octubre de 2026)
+
+La aplicación local **KardioFit · Finanzas** es una herramienta de registro interno y apoyo a la contabilidad simplificada. Separa documentos, cobros y pagos, caja, cuentas pendientes, clasificación de IVA, importaciones de RCV y cartolas, servicios, activos y listas de cierre. **No emite facturas, no se conecta al SII ni presenta declaraciones tributarias.** Los datos societarios y tributarios pendientes deben confirmarse con los documentos vigentes y el profesional responsable; no se deben ingresar claves ni datos clínicos de pacientes.
+
+### Estado observado
+
+- Las instalaciones nuevas comienzan sin movimientos ficticios. El saldo inicial desconocido se presenta como «No confirmado».
+- El formulario admite pagos parciales, anulación con motivo e historial. Para ventas, compras y notas nuevas valida el desglose de neto, exento e IVA; también incorpora validación opcional de RUT y revisión de duplicados cuando existen tipo, folio y RUT.
+- El catálogo de servicios permite agregar, editar y desactivar registros, conservar el motivo del cambio y asociar un servicio a un movimiento. La clasificación de IVA de cada documento requiere revisión individual.
+- RCV y cartolas se importan mediante CSV con vista previa. La aplicación conserva importaciones anteriores en el respaldo, pero la pantalla compara la última importación y las coincidencias de cartola no constituyen conciliación confirmada.
+- Google Sheets tiene una preparación experimental para autorizar una cuenta y crear una **hoja vacía**. Aún no sincroniza movimientos, no importa cambios ni resuelve conflictos. La hoja vacía no es un respaldo de la contabilidad.
+- Los datos, adjuntos y respaldos permanecen en el navegador local sin cifrar ni control de acceso. Esta versión no debe publicarse en Internet ni usarse como único almacenamiento de documentación financiera.
+
+### Correcciones prioritarias
+
+1. Implementar y comprobar la sincronización real con Google Sheets, con identificadores estables, reintentos, estado visible y revisión de conflictos.
+2. Establecer almacenamiento duradero y protegido para registros y adjuntos, con migración, respaldo y restauración comprobados.
+3. Calcular saldos por cada banco o caja y distinguir saldo de apertura de aportes efectivos para evitar doble contabilización.
+4. Vincular notas de crédito y débito al documento original y actualizar saldos e indicadores.
+5. Permitir consultar importaciones de RCV y cartolas por período, detectar diferencias en ambos sentidos y confirmar o rechazar conciliaciones con historial.
+6. Completar paneles por área y los controles de inventario, activos, depreciación y obligaciones aplicables, con revisión profesional de las reglas tributarias.
+
+**Criterio de entrega:** probar desde la interfaz con datos ficticios aislados la creación, pagos parciales, recarga, anulación, importación y recuperación. No declarar Google Sheets operativo hasta verificar una sincronización con una cuenta autorizada. Este estado procede de la revisión local del prototipo y no certifica cumplimiento tributario.
