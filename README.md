@@ -1,6 +1,6 @@
 # KardioFit — contexto maestro para IA
 
-**Versión:** 26 de octubre de 2026  
+**Versión:** 5 de noviembre de 2026  
 **Uso:** contexto interno para asistentes de IA, desarrollo, diseño y apoyo comercial. No es una fuente legal ni un protocolo clínico aprobado.
 
 ## 1. Instrucciones para asistentes
@@ -112,6 +112,7 @@ La llamada comercial principal es agendar una reunión virtual de 30 minutos por
 - WhatsApp: +56 9 8880 2424.
 - Teléfono: +56 9 2034 4764.
 - Instagram: @kardiofitchile.
+- Dirección para el pie de los correos de marketing, confirmada por el propietario el 5 de noviembre de 2026: **Eulogio Sánchez 065, Providencia, Santiago de Chile**. No añadir código postal. Esta indicación prevalece sobre el dato postal que pueda mostrar Brevo para esas piezas; no cambiar los datos generales de la cuenta sin una instrucción expresa.
 - Correo de pagos/facturación que figura en documentos internos: pagos@kardiofit.cl; verificar antes de comunicar instrucciones de pago.
 
 ## 9. Marca, diseño y tono
@@ -168,6 +169,7 @@ Las referencias legales están en la sección 5, la planilla de prospección en 
 
 - Preferir una estructura sencilla compatible con clientes de correo: tablas para la composición, estilos en línea, ancho adaptable a móvil y enlaces HTTPS. Evitar depender de JavaScript, formularios, fuentes externas o CSS avanzado para comunicar el contenido esencial.
 - Incluir un preencabezado oculto y útil, saludo personalizado sólo cuando exista un campo válido y una alternativa segura cuando falte el nombre. Revisar la personalización en la previsualización con un contacto de prueba; nunca dejar etiquetas de plantilla sin resolver en la versión enviada.
+- En el pie de los correos de marketing, usar la dirección confirmada en la sección 8 exactamente y sin código postal, aunque la ficha de Brevo muestre un dato postal distinto.
 - Comprobar que las imágenes estén alojadas en una URL pública HTTPS y carguen desde Brevo. Añadir texto alternativo, CTA con etiqueta clara y enlace correcto, enlace al sitio y enlace de baja funcional. Para el editor HTML de Brevo se utilizó el marcador `{{ unsubscribe }}`; validar su funcionamiento con la vista previa y las herramientas actuales de Brevo antes de cada campaña.
 - Antes de programar, revisar vista de escritorio y móvil, carga del banner, personalización con y sin nombre, enlaces, remitente, asunto, preencabezado y baja. Si es posible, enviar un correo de prueba a un buzón interno y revisar el resultado en el cliente de correo. No afirmar que se probó un envío si sólo se revisó la previsualización.
 
